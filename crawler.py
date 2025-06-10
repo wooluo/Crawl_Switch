@@ -3,22 +3,25 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-url = "http://news.163.com"
+url = "https://www.baidu.com/s?wd=switch"
 
 response = requests.get(url, timeout=10)
 response.encoding = 'utf-8'
 soup = BeautifulSoup(response.text, 'html.parser')
 
-# 更精确的选择器（请根据实际页面结构调整）
-links = soup.find_all("a")
+# 获取Nintendo官网新闻列表
+news_items = soup.find_all('article', class_='news-item')
 
 results = []
 keywords = ["switch", "任天堂", "Nintendo", "游戏主机"]
 
-for link in links:
-    title = link.get_text().strip()
-    href = link.get('href')
-    if title and href and any(kw.lower() in title.lower() for kw in keywords):
+for item in news_items:
+    title = item.find('h3').get_text().strip() if item.find('h3') else ''
+    href = item.find('a')['href'] if item.find('a') else ''
+    if title and href:
+        # 确保链接是完整的URL
+        if not href.startswith('http'):
+            href = f"https://www.baidu.com/s?wd=switch{href}"
         results.append({
             'title': title,
             'link': href
