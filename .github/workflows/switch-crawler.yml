@@ -27,7 +27,11 @@ jobs:
         run: |
           curl -u :${{ secrets.REPO_PAT }} https://api.github.com/user 
 
-          
+      - name: 测试 token 是否生效
+        run: |
+          curl -H "Authorization: token ${{ secrets.REPO_PAT }}" https://api.github.com/user
+
+
       - name: 运行爬虫脚本
         run: |
           python crawler.py
