@@ -5,18 +5,21 @@ import os
 
 url = "https://www.baidu.com/s?wd=switch"
 
-response = requests.get(url, timeout=10)
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
+response = requests.get(url, headers=headers, timeout=10)
 response.encoding = 'utf-8'
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # 获取Nintendo官网新闻列表
-news_items = soup.find_all('article', class_='news-item')
+news_items = soup.find_all('div', class_='news-item')
 
 results = []
 keywords = ["switch", "任天堂", "Nintendo", "游戏主机"]
 
 for item in news_items:
-    title = item.find('h3').get_text().strip() if item.find('h3') else ''
+    title = item.find('h2').get_text().strip() if item.find('h2') else ''
     href = item.find('a')['href'] if item.find('a') else ''
     if title and href:
         # 确保链接是完整的URL
