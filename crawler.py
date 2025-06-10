@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-url = "https://www.baidu.com/s?wd=switch"
+url = "https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=switch"
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -24,7 +24,7 @@ for item in news_items:
     if title and href:
         # 确保链接是完整的URL
         if not href.startswith('http'):
-            href = f"https://www.baidu.com/s?wd=switch{href}"
+            href = f"https://baijiahao.baidu.com/s?id=1834513450802434398&wfr=spider&for=pc{href}"
         results.append({
             'title': title,
             'link': href
