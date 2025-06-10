@@ -1,0 +1,156 @@
+name: Crawl News about Switch
+
+on:
+  # 每天 UTC 04:00 (北京时间 12:00) 定时执行
+  schedule:
+    - cron: '0 4 * * *'
+  # 也支持手动触发
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+          
+      - name: Crawl and filter news
+        run: |
+          python << 'EOF'
+          
+import requests
+from bs4 import BeautifulSoup
+import time
+import os
+from datetime import datetime
+
+# 目标网站URL
+url = "http://news.163.com"
+
+# 请求头，模拟浏览器访问
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
+
+try:
+    # 发送HTTP请求
+    response = requests.get(url, headers=headers, timeout=10)
+    response.raise_for_status()  # 检查请求是否成功
+    
+    # 解析HTML内容
+    soup = BeautifulSoup(response.text, 'lxml')
+    
+    # 查找所有新闻链接 (根据网易新闻页面结构调整选择器)
+    news_links = []
+    for link in soup.select('a[href^="http://news.163.com"]'):
+        if 'href' in link.attrs:
+            news_links.append(link['href'])
+    
+    # 过滤重复链接
+    news_links = list(set(news_links))
+    
+    # 搜索关键词列表 (大小写不敏感)
+    keywords = ['Switch', 'switch', '任天堂Switch', 'Nintendo Switch']
+    
+    # 存储匹配的新闻
+    matched_news = []
+    
+    # 遍历新闻链接，查找包含关键词的新闻
+    for link in news_links[:100]:  # 限制为前100个链接，避免请求过多
+        try:
+            # 请求新闻详情页
+            article_response = requests.get(link, headers=headers, timeout=10)
+            article_response.raise_for_status()
+            
+            # 解析文章内容
+            article_soup = BeautifulSoup(article_response.text, 'lxml')
+            
+            # 获取文章标题和正文 (根据网易新闻页面结构调整选择器)
+            title = article_soup.select_one('h1')
+            if title:
+                title = title.get_text().strip()
+            else:
+                title = "无标题"
+            
+            content = ""
+            content_elements = article_soup.select('.post_text p')
+            if not content_elements:
+                content_elements = article_soup.select('.article p')
+            
+            for p in content_elements:
+                content += p.get_text().strip() + "\n"
+            
+            # 检查标题或正文中是否包含关键词
+            if any(keyword in title or keyword in content for keyword in keywords):
+                matched_news.append({
+                    'title': title,
+                    'url': link,
+                    'publish_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                    'excerpt': content[:200] + '...' if len(content) > 200 else content
+                })
+            
+            # 控制请求频率，避免被封IP
+            time.sleep(1)
+            
+        except Exception as e:
+            print(f"处理链接 {link} 时出错: {e}")
+            continue
+    
+    # 创建结果目录
+    os.makedirs('news_results', exist_ok=True)
+    
+    # 生成结果文件名 (按日期)
+    today = datetime.now().strftime('%Y-%m-%d')
+    output_file = f'news_results/switch_news_{today}.md'
+    
+    # 写入Markdown文件
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(f"# {today} 网易新闻中关于Switch的报道\n\n")
+        f.write(f"更新时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        
+        if not matched_news:
+            f.write("今日未发现关于Switch的相关报道。\n")
+        else:
+            for i, news in enumerate(matched_news, 1):
+                f.write(f"## {i}. {news['title']}\n")
+                f.write(f"**发布时间**: {news['publish_time']}\n\n")
+                f.write(f"**摘要**: {news['excerpt']}\n\n")
+                f.write(f"**链接**: [点击查看]({news['url']})\n\n")
+                f.write("---\n\n")
+    
+    print(f"共找到 {len(matched_news)} 条Switch相关新闻")
+    print(f"结果已保存到 {output_file}")
+    
+except Exception as e:
+    print(f"爬取过程中出错: {e}")
+    exit(1)
+          
+EOF
+
+      - name: Commit and push results
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          # 添加并提交结果文件
+          git add news_results/
+          
+          # 只有当有更改时才提交
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Switch news results"
+            git push
+            echo "已更新新闻结果"
+          else
+            echo "没有新的新闻结果，跳过提交"
+          fi
