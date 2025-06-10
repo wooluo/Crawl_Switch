@@ -28,4 +28,4 @@ output_file = "results.json"
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
-print(f"找到 {len(results)} 条关于 Switch 的新闻")
+print(f"找到 {len(results)} 条关于 中国 的新闻")
