@@ -27,7 +27,7 @@ jobs:
           
       - name: Crawl and filter news
         run: |
-          python << 'EOF'
+          python <<'EOF'
           
 import requests
 from bs4 import BeautifulSoup
