@@ -17,7 +17,7 @@ results = []
 for link in links:
     title = link.get_text().strip()
     href = link.get('href')
-    if title and href and ("switch" in title.lower() or "任天堂" in title):
+    if title and href and ("北京" in title.lower() or "中国" in title):
         results.append({
             'title': title,
             'link': href
