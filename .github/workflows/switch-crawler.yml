@@ -26,14 +26,17 @@ jobs:
         run: |
           python crawler.py
 
-      - name: 提交变更
+      - name: 显示结果（调试用）
+        run: cat results.json
+
+      - name: 提交变更到 GitHub
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
-          # 检查是否有变更
+
+          # 检查是否有更改
           if [ -n "$(git diff --cached)" ]; then
-            git commit -m "更新 Switch 新闻列表 $(date)"
+            git commit -m "更新 Nintendo Switch 新闻 $(date)"
             git remote set-url origin https://x-access-token:${{  secrets.REPO_PAT }}@github.com/${{ github.repository }}
             git push
           else
