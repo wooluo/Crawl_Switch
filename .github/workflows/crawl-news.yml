@@ -1,4 +1,4 @@
-name: Crawl News about Switch
+name: crawl-news
 
 on:
   # 每天 UTC 04:00 (北京时间 12:00) 定时执行
