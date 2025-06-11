@@ -30,21 +30,19 @@ jobs:
             xvfb
           sudo apt-get clean
           sudo rm -rf /var/lib/apt/lists/*
-          
 
       - name: 安装 Python 依赖
         run: |
           pip install -r requirements.txt
+          pip install playwright  # 确保 Playwright 已安装
 
-      - name: 安装 Playwright 浏览器
-        uses: microsoft/playwright-github-action@v1
-        with:
-          install-deps: false    # 我们已经手动安装了系统依赖
-          browsers: chromium     # 只安装 Chromium，节省时间
+      - name: 安装 Playwright 浏览器和系统依赖
+        run: |
+          npx playwright install --with-deps chromium  # 仅安装 Chromium
 
       - name: 测试 token 是否生效（用户名）
         run: |
-          curl -H "Authorization: token ${{ secrets.REPO_PAT }}" https://api.github.com/user  | jq .login
+          curl -H "Authorization: token ${{ secrets.REPO_PAT }}" https://api.github.com/user | jq .login
 
       - name: 运行爬虫脚本
         run: |
@@ -63,7 +61,7 @@ jobs:
           git add results.json switch_news.md
           if [ -n "$(git diff --cached)" ]; then
             git commit -m "更新 Nintendo Switch 游戏信息 $(date)"
-            git remote set-url origin https://x-access-token:${{  secrets.REPO_PAT }}@github.com/${{ github.repository }}
+            git remote set-url origin https://x-access-token:${{ secrets.REPO_PAT }}@github.com/${{ github.repository }}
             git push
           else
             echo "没有新变化，无需提交"
