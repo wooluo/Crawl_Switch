@@ -8,9 +8,22 @@ for page in range(1, 6):
     url = f'{base_url}/page/{page}' if page > 1 else base_url
     results = []
 
+import random
+import time
+
+user_agents = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0'
+]
+
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    'User-Agent': random.choice(user_agents),
+    'Referer': 'https://www.gamer520.com/'
 }
+
+# 随机延迟1-3秒
+time.sleep(random.uniform(1, 3))
 response = requests.get(url, headers=headers, timeout=10)
 response.encoding = 'utf-8'
 soup = BeautifulSoup(response.text, 'html.parser')
