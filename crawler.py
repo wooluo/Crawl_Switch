@@ -12,7 +12,7 @@ all_results = []
 # 配置
 base_url = "https://www.gamer520.com/switchyouxi"
 pages_to_crawl = 2  # 抓取前2页
-timeout = 30000  # 30秒超时
+timeout = 15000  # 15秒超时
 
 # 启动浏览器
 with sync_playwright() as p:
