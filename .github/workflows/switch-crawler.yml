@@ -18,10 +18,11 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 安装系统依赖（适配 Ubuntu 24.04）
+      - name: 更新 apt 缓存并安装系统依赖（适配 Ubuntu 24.04）
         run: |
+          sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            libgl1 \         # 替代 libgl1-mesa-glx
+            libglx-mesa0 \         # 替代 libgl1
             libglib2.0-0 \
             libsm6 \
             libxrender1 \
