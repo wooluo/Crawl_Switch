@@ -27,7 +27,10 @@ jobs:
             libsm6 \
             libxrender1 \
             libxext6 \
-            xvfb
+            xvfb \
+            libasound2 \
+            libffi8 \
+            libx264-164
           sudo apt-get clean
           sudo rm -rf /var/lib/apt/lists/*
 
