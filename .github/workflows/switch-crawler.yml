@@ -3,7 +3,7 @@ name: Switch 新闻爬虫
 on:
   schedule:
     - cron: '0 9 * * *'   # 每天早上 9 点执行
-  workflow_dispatch:      # 手动触发
+  workflow_dispatch:      # 支持手动触发
 
 jobs:
   build:
@@ -18,16 +18,15 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 安装系统依赖（Playwright 需要）
+      - name: 安装系统依赖（适配 Ubuntu 24.04）
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            libgl1 \
+            libgl1 \         # 替代 libgl1-mesa-glx
             libglib2.0-0 \
             libsm6 \
             libxrender1 \
             libxext6 \
-            libgl1-mesa-glx \
             xvfb
           sudo apt-get clean
           sudo rm -rf /var/lib/apt/lists/*
@@ -39,7 +38,7 @@ jobs:
       - name: 安装 Playwright 浏览器
         uses: microsoft/playwright-github-action@v1
         with:
-          install-deps: true     # 自动安装系统依赖（也可以手动控制）
+          install-deps: false    # 我们已经手动安装了系统依赖
           browsers: chromium     # 只安装 Chromium，节省时间
 
       - name: 测试 token 是否生效（用户名）
