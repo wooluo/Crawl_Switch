@@ -38,7 +38,8 @@ jobs:
 
       - name: 安装 Playwright 浏览器和系统依赖
         run: |
-          npx playwright install --with-deps chromium  # 仅安装 Chromium
+          python -m playwright install chromium  # 使用Python模块安装Chromium
+          python -m playwright install-deps
 
       - name: 测试 token 是否生效（用户名）
         run: |
