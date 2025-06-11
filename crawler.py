@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import json
 import os
 
+from datetime import datetime
+
 base_url = "https://www.gamer520.com/switchyouxi"
 for page in range(1, 6):
     url = f'{base_url}/page/{page}' if page > 1 else base_url
@@ -66,13 +68,24 @@ with open("results.json", "w", encoding="utf-8") as f:
 
 # 写入 Markdown
 md_file = "switch_news.md"
-with open(md_file, "w", encoding="utf-8") as f:
-    f.write("# Nintendo Switch 游戏信息\n")
-    f.write(f"更新时间：{__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
+# 修改写入Markdown文件的代码部分
+with open('switch_news.md', 'w', encoding='utf-8') as f:
+    f.write(f"# Nintendo Switch 游戏信息\n更新时间：{datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
+    for game in all_results:
+        # 确保字典中有需要的键
+        if 'title' in game and 'href' in game and 'cover' in game:
+            f.write(f"找到游戏: {game['title']}\n")
+            # 修改封面图片写入部分
+             # 或者如果您想控制图片大小
+            f.write(f"封面: (`{game['cover']}`)\n")
+            f.write(f"链接: `{game['href']}`\n")
+            f.write(f"🔍 处理条目: {game['title']}\n")
+            f.write(f"  链接: `{game['href']}`\n")
+    f.write(f"✅ 共找到 {len(all_results)} 条 Nintendo Switch 游戏信息")
     if all_results:
         f.write(f"共找到 {len(all_results)} 条游戏信息：\n\n")
         for item in all_results:
-            f.write(f"- [{item['title']}]({item['link']})({item['image']})\n")
+            f.write(f"- [{item['title']}]\n下载链接：({item['link']})\n![游戏截图]({item['image']})\n")
     else:
         f.write("❌ 当前没有找到任何与 Nintendo Switch 游戏信息。\n")
 
