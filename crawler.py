@@ -113,14 +113,22 @@ with sync_playwright() as p:
     context.close()
     browser.close()
 
-# 写入文件（保持原样）
-with open("results.json", "w", encoding="utf-8") as f:
+# 获取当前时间（用于文件名）
+current_time = datetime.now(pytz.timezone("Asia/Shanghai"))
+timestamp = current_time.strftime('%Y%m%d_%H%M%S')
+
+# 生成带时间戳的文件名
+json_filename = f"results_{timestamp}.json"
+md_filename = f"switch_news_{timestamp}.md"
+
+# 写入JSON文件
+with open(json_filename, "w", encoding="utf-8") as f:
     json.dump(all_results, f, ensure_ascii=False, indent=2)
 
 # 生成Markdown文件（带UTC+8的当前时间）
-current_time = datetime.now(pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M')
-with open("switch_news.md", "w", encoding="utf-8") as f:
-    f.write(f"# Nintendo Switch 游戏信息\n更新时间：{current_time} (UTC+8)\n\n")
+formatted_time = current_time.strftime('%Y-%m-%d %H:%M')
+with open(md_filename, "w", encoding="utf-8") as f:
+    f.write(f"# Nintendo Switch 游戏信息\n更新时间：{formatted_time} (UTC+8)\n\n")
     if all_results:
         f.write(f"✅ 共找到 {len(all_results)} 条游戏信息：\n\n")
         for game in all_results:
@@ -133,4 +141,4 @@ with open("switch_news.md", "w", encoding="utf-8") as f:
     else:
         f.write("❌ 当前没有找到任何与 Nintendo Switch 相关的游戏信息。\n")
 
-print(f"🎉 数据已保存至 results.json 和 switch_news.md")
+print(f"🎉 数据已保存至 {json_filename} 和 {md_filename}")
