@@ -1,144 +1,194 @@
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 import time
 import random
-import pytz  # 用于时区转换
+import pytz
+import os
 
-# 存储所有结果
-all_results = []
+# 配置参数
+CONFIG = {
+    "base_url": "https://www.gamer520.com/switchyouxi",
+    "pages_to_crawl": 5,
+    "timeout": 45000,  # 45秒超时
+    "max_retries": 3,  # 最大重试次数
+    "retry_delay": 5,  # 重试延迟(秒)
+    "min_delay": 3,    # 最小请求间隔
+    "max_delay": 8     # 最大请求间隔
+}
 
-# 配置
-base_url = "https://www.gamer520.com/switchyouxi"
-pages_to_crawl = 2  # 抓取前2页
-timeout = 15000  # 15秒超时
+# 用户代理列表
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0"
+]
 
-# 启动浏览器
-with sync_playwright() as p:
-    # 增加浏览器启动参数
-    browser = p.chromium.launch(
-        headless=True,
-        timeout=timeout,
-        args=[
-            '--disable-blink-features=AutomationControlled',
-            '--no-sandbox'
-        ]
-    )
-    
-    # 创建上下文（可配置User-Agent等）
-    context = browser.new_context(
-        user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
-        viewport={'width': 1920, 'height': 1080}
-    )
-    page = context.new_page()
+def get_timestamp():
+    """获取当前时间戳"""
+    return datetime.now(pytz.timezone("Asia/Shanghai")).strftime('%Y%m%d_%H%M%S')
 
-    for page_num in range(1, pages_to_crawl + 1):
-        url = f"{base_url}/page/{page_num}" if page_num > 1 else base_url
-        print(f"正在访问第 {page_num} 页: {url}")
+def save_results(data):
+    """保存结果到文件"""
+    timestamp = get_timestamp()
+    json_filename = f"results_{timestamp}.json"
+    md_filename = f"switch_news_{timestamp}.md"
+    current_time = datetime.now(pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M')
 
-        try:
-            # 增加页面访问配置
-            page.goto(url, timeout=timeout, wait_until="domcontentloaded")
-            
-            # 更可靠的等待方式
-            page.wait_for_load_state("networkidle", timeout=timeout)
-            
-            # 备用选择器方案
-            try:
-                page.wait_for_selector("article.post-grid", timeout=15000)
-            except:
-                page.wait_for_selector("article.post", timeout=15000)  # 尝试备用选择器
+    # 保存JSON文件
+    with open(json_filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
-            # 滚动页面触发懒加载
+    # 生成Markdown文件
+    with open(md_filename, "w", encoding="utf-8") as f:
+        f.write(f"# Nintendo Switch 游戏信息\n更新时间：{current_time} (UTC+8)\n\n")
+        if data:
+            f.write(f"✅ 共找到 {len(data)} 条游戏信息：\n\n")
+            for game in data:
+                f.write(f"- [{game['title']}]({game['link']})")
+                if game['date']:
+                    f.write(f" ({game['date']})")
+                if game['image']:
+                    f.write(f"\n  ![封面]({game['image']})")
+                f.write("\n")
+        else:
+            f.write("❌ 当前没有找到任何与 Nintendo Switch 相关的游戏信息。\n")
+
+    print(f"🎉 数据已保存至 {json_filename} 和 {md_filename}")
+    return json_filename, md_filename
+
+def scrape_page(page, url, attempt=1):
+    """抓取单个页面"""
+    try:
+        # 随机延迟避免被屏蔽
+        time.sleep(random.uniform(CONFIG['min_delay'], CONFIG['max_delay']))
+        
+        # 访问页面
+        page.goto(
+            url,
+            timeout=CONFIG['timeout'],
+            wait_until="networkidle"  # 更宽松的等待条件
+        )
+        
+        # 等待主要内容加载
+        page.wait_for_selector("article.post", timeout=20000)
+        
+        # 滚动页面触发懒加载
+        for _ in range(3):
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            time.sleep(2)  # 等待懒加载完成
+            time.sleep(random.uniform(1, 3))
+        
+        # 获取页面内容
+        html = page.content()
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # 解析游戏条目
+        game_items = soup.find_all('article', class_=lambda x: x and ('post-grid' in x or 'post' in x))
+        print(f"🔍 找到 {len(game_items)} 个游戏条目")
+        
+        results = []
+        for item in game_items:
+            try:
+                title = item.find('h2', class_=lambda x: x and 'title' in x).get_text().strip()
+                link = item.find('a')['href']
+                
+                # 处理日期
+                time_tag = item.find('time')
+                date_str = time_tag.get('datetime') if time_tag else ''
+                formatted_date = ""
+                
+                if date_str:
+                    try:
+                        date_utc = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.UTC)
+                        date_local = date_utc.astimezone(pytz.timezone("Asia/Shanghai"))
+                        formatted_date = date_local.strftime("%Y-%m-%d %H:%M")
+                    except ValueError:
+                        formatted_date = date_str
+                
+                # 处理图片
+                img = item.find('img')
+                image = img.get('data-src') or img.get('src') if img else ''
+                
+                if title and link:
+                    results.append({
+                        'title': title,
+                        'link': link,
+                        'date': formatted_date,
+                        'image': image
+                    })
+            except Exception as e:
+                print(f"⚠️ 解析条目失败: {str(e)[:100]}")
+                continue
+        
+        return results
+        
+    except Exception as e:
+        print(f"⚠️ 第 {attempt} 次尝试失败: {str(e)[:200]}...")
+        if attempt < CONFIG['max_retries']:
+            time.sleep(CONFIG['retry_delay'])
+            return scrape_page(page, url, attempt + 1)
+        else:
+            print(f"❌ 页面抓取失败: {url}")
+            return []
 
-            # 获取 HTML 内容
-            html = page.content()
+def main():
+    """主函数"""
+    all_results = []
+    
+    with sync_playwright() as p:
+        # 启动浏览器
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                '--disable-blink-features=AutomationControlled',
+                '--no-sandbox',
+                '--disable-dev-shm-usage'  # 针对Docker环境的优化
+            ]
+        )
+        
+        # 创建上下文
+        context = browser.new_context(
+            user_agent=random.choice(USER_AGENTS),
+            viewport={'width': 1920, 'height': 1080}
+        )
+        page = context.new_page()
+        
+        try:
+            for page_num in range(1, CONFIG['pages_to_crawl'] + 1):
+                url = f"{CONFIG['base_url']}/page/{page_num}" if page_num > 1 else CONFIG['base_url']
+                print(f"\n正在访问第 {page_num} 页: {url}")
+                
+                # 在GitHub Actions环境中保存调试截图
+                if os.getenv('GITHUB_ACTIONS') == 'true':
+                    page.screenshot(path=f"debug_page_{page_num}.png")
+                    print("已保存调试截图")
+                
+                page_results = scrape_page(page, url)
+                all_results.extend(page_results)
+                
+                # 随机延迟避免频繁请求
+                time.sleep(random.uniform(CONFIG['min_delay'], CONFIG['max_delay']))
+        
+        finally:
+            # 确保资源释放
+            context.close()
+            browser.close()
+    
+    # 保存结果
+    return save_results(all_results)
 
-            # 解析 HTML
-            soup = BeautifulSoup(html, 'html.parser')
-            
-            # 更灵活的选择器方案
-            game_items = soup.find_all('article', class_=lambda x: x and ('post-grid' in x or 'post' in x))
+if __name__ == "__main__":
+    start_time = time.time()
+    json_file, md_file = main()
+    print(f"⏱️ 总耗时: {time.time() - start_time:.2f}秒")
+# 原始有问题的代码：
+# print(f"📊 总抓取数量: {len(json.load(open(json_file, 'r', encoding='utf-8')) if os.path.exists(json_file) else 0}")
 
-            print(f"🔍 找到 {len(game_items)} 个游戏条目")
-
-            for item in game_items:
-                try:
-                    title = item.find('h2', class_=lambda x: x and 'title' in x).get_text().strip()
-                    link = item.find('a')['href']
-                    
-                    # 更灵活的日期获取方式
-                    time_tag = item.find('time')
-                    date_str = time_tag.get('datetime') if time_tag else ''
-                    
-                    # 处理图片懒加载
-                    img = item.find('img')
-                    image = img.get('data-src') or img.get('src') if img else ''
-
-                    # 时区转换逻辑（UTC+8）
-                    if date_str:
-                        try:
-                            # 尝试解析ISO格式日期（如 "2023-05-01T12:00:00Z"）
-                            date_utc = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.UTC)
-                            date_local = date_utc.astimezone(pytz.timezone("Asia/Shanghai"))  # UTC+8
-                            formatted_date = date_local.strftime("%Y-%m-%d %H:%M")
-                        except ValueError:
-                            # 其他格式直接使用原始值（或自定义处理）
-                            formatted_date = date_str
-                    else:
-                        formatted_date = ""
-
-                    if title and link:
-                        all_results.append({
-                            'title': title,
-                            'link': link,
-                            'date': formatted_date,  # 修正后的日期
-                            'image': image
-                        })
-                except Exception as item_error:
-                    print(f"⚠️ 解析条目失败: {item_error}")
-                    continue
-
-            # 更自然的延迟
-            time.sleep(random.uniform(3, 8))
-
-        except Exception as e:
-            print(f"⚠️ 页面加载失败（第 {page_num} 页）: {str(e)[:200]}...")
-            continue
-
-    # 确保资源释放
-    context.close()
-    browser.close()
-
-# 获取当前时间（用于文件名）
-current_time = datetime.now(pytz.timezone("Asia/Shanghai"))
-timestamp = current_time.strftime('%Y%m%d_%H%M%S')
-
-# 生成带时间戳的文件名
-json_filename = f"results_{timestamp}.json"
-md_filename = f"switch_news_{timestamp}.md"
-
-# 写入JSON文件
-with open(json_filename, "w", encoding="utf-8") as f:
-    json.dump(all_results, f, ensure_ascii=False, indent=2)
-
-# 生成Markdown文件（带UTC+8的当前时间）
-formatted_time = current_time.strftime('%Y-%m-%d %H:%M')
-with open(md_filename, "w", encoding="utf-8") as f:
-    f.write(f"# Nintendo Switch 游戏信息\n更新时间：{formatted_time} (UTC+8)\n\n")
-    if all_results:
-        f.write(f"✅ 共找到 {len(all_results)} 条游戏信息：\n\n")
-        for game in all_results:
-            f.write(f"- [{game['title']}]({game['link']})")
-            if game['date']:
-                f.write(f" ({game['date']})")
-            if game['image']:
-                f.write(f"\n  ![封面]({game['image']})")
-            f.write("\n")
-    else:
-        f.write("❌ 当前没有找到任何与 Nintendo Switch 相关的游戏信息。\n")
-
-print(f"🎉 数据已保存至 {json_filename} 和 {md_filename}")
+# 修正后的代码：
+if os.path.exists(json_file):
+    with open(json_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    print(f"📊 总抓取数量: {len(data)}")
+else:
+    print("📊 没有抓取到任何数据")
