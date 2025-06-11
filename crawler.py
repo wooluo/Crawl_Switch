@@ -11,7 +11,7 @@ all_results = []
 
 # 配置
 base_url = "https://www.gamer520.com/switchyouxi"
-pages_to_crawl = 1  # 抓取前5页
+pages_to_crawl = 2  # 抓取前2页
 timeout = 30000  # 30秒超时
 
 # 启动浏览器
