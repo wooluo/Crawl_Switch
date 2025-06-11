@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-url = "https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=switch"
+url = "https://news.163.com/"
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -12,19 +12,19 @@ response = requests.get(url, headers=headers, timeout=10)
 response.encoding = 'utf-8'
 soup = BeautifulSoup(response.text, 'html.parser')
 
-# 获取Nintendo官网新闻列表
-news_items = soup.find_all('div', class_='news-item')
+# 获取网易新闻列表
+news_items = soup.find_all('div', class_='news_title')
 
 results = []
 keywords = ["switch", "任天堂", "Nintendo", "游戏主机"]
 
 for item in news_items:
-    title = item.find('h2').get_text().strip() if item.find('h2') else ''
+    title = item.find('a').get_text().strip() if item.find('a') else ''
     href = item.find('a')['href'] if item.find('a') else ''
-    if title and href:
+    if title and href and any(keyword.lower() in title.lower() for keyword in keywords):
         # 确保链接是完整的URL
         if not href.startswith('http'):
-            href = f"https://baijiahao.baidu.com/s?id=1834513450802434398&wfr=spider&for=pc{href}"
+            href = f"https://news.163.com{href}"
         results.append({
             'title': title,
             'link': href
