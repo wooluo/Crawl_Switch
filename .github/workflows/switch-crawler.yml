@@ -28,7 +28,7 @@ jobs:
             libxrender1 \
             libxext6 \
             xvfb \
-            libasound2 \
+            libasound2t64 \
             libffi8 \
             libx264-164
           sudo apt-get clean
