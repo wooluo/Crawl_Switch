@@ -20,7 +20,6 @@ jobs:
 
       - name: 安装系统依赖（适配 Ubuntu 24.04）
         run: |
-          sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
             libgl1 \         # 替代 libgl1-mesa-glx
             libglib2.0-0 \
