@@ -1,9 +1,10 @@
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import time
 import random
+import pytz  # 用于时区转换
 
 # 存储所有结果
 all_results = []
@@ -71,17 +72,30 @@ with sync_playwright() as p:
                     
                     # 更灵活的日期获取方式
                     time_tag = item.find('time')
-                    date = time_tag.get('datetime') if time_tag else ''
+                    date_str = time_tag.get('datetime') if time_tag else ''
                     
                     # 处理图片懒加载
                     img = item.find('img')
                     image = img.get('data-src') or img.get('src') if img else ''
 
+                    # 时区转换逻辑（UTC+8）
+                    if date_str:
+                        try:
+                            # 尝试解析ISO格式日期（如 "2023-05-01T12:00:00Z"）
+                            date_utc = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.UTC)
+                            date_local = date_utc.astimezone(pytz.timezone("Asia/Shanghai"))  # UTC+8
+                            formatted_date = date_local.strftime("%Y-%m-%d %H:%M")
+                        except ValueError:
+                            # 其他格式直接使用原始值（或自定义处理）
+                            formatted_date = date_str
+                    else:
+                        formatted_date = ""
+
                     if title and link:
                         all_results.append({
                             'title': title,
                             'link': link,
-                            'date': date,
+                            'date': formatted_date,  # 修正后的日期
                             'image': image
                         })
                 except Exception as item_error:
@@ -103,8 +117,10 @@ with sync_playwright() as p:
 with open("results.json", "w", encoding="utf-8") as f:
     json.dump(all_results, f, ensure_ascii=False, indent=2)
 
+# 生成Markdown文件（带UTC+8的当前时间）
+current_time = datetime.now(pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M')
 with open("switch_news.md", "w", encoding="utf-8") as f:
-    f.write(f"# Nintendo Switch 游戏信息\n更新时间：{datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
+    f.write(f"# Nintendo Switch 游戏信息\n更新时间：{current_time} (UTC+8)\n\n")
     if all_results:
         f.write(f"✅ 共找到 {len(all_results)} 条游戏信息：\n\n")
         for game in all_results:
@@ -116,3 +132,5 @@ with open("switch_news.md", "w", encoding="utf-8") as f:
             f.write("\n")
     else:
         f.write("❌ 当前没有找到任何与 Nintendo Switch 相关的游戏信息。\n")
+
+print(f"🎉 数据已保存至 results.json 和 switch_news.md")
