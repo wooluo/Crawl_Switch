@@ -18,11 +18,11 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 更新 apt 缓存并安装系统依赖（适配 Ubuntu 24.04）
+      - name: 安装系统依赖（适配 Ubuntu 24.04）
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            libglx-mesa0 \         # 替代 libgl1
+            libgl1 \
             libglib2.0-0 \
             libsm6 \
             libxrender1 \
@@ -30,6 +30,7 @@ jobs:
             xvfb
           sudo apt-get clean
           sudo rm -rf /var/lib/apt/lists/*
+          
 
       - name: 安装 Python 依赖
         run: |
