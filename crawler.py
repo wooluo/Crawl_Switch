@@ -9,7 +9,7 @@ import os
 
 # 配置参数
 CONFIG = {
-    "base_url": "https://www.gamer520.com/switchyouxi",
+    "base_url": "https://www.gamer520.com/gameswitch",
     "pages_to_crawl": 5,
     "timeout": 45000,  # 45秒超时
     "max_retries": 3,  # 最大重试次数
