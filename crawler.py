@@ -32,28 +32,45 @@ def get_timestamp():
 def save_results(data):
     """保存结果到文件"""
     timestamp = get_timestamp()
-    json_filename = f"results_{timestamp}.json"
-    md_filename = f"switch_news_{timestamp}.md"
+
+    # 确保输出目录存在
+    output_dir = "results"
+    os.makedirs(output_dir, exist_ok=True)
+
+    json_filename = os.path.join(output_dir, f"results_{timestamp}.json")
+    md_filename = os.path.join(output_dir, f"switch_news_{timestamp}.md")
+
+    # 同时创建 latest 软链接/副本
+    json_latest = os.path.join(output_dir, "results_latest.json")
+    md_latest = os.path.join(output_dir, "switch_news_latest.md")
+
     current_time = datetime.now(pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M')
 
     # 保存JSON文件
     with open(json_filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    # 复制一份为 latest
+    with open(json_latest, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
     # 生成Markdown文件
+    md_content = f"# Nintendo Switch 游戏信息\n更新时间：{current_time} (UTC+8)\n\n"
+    if data:
+        md_content += f"✅ 共找到 {len(data)} 条游戏信息：\n\n"
+        for game in data:
+            md_content += f"- [{game['title']}]({game['link']})"
+            if game['date']:
+                md_content += f" ({game['date']})"
+            if game['image']:
+                md_content += f"\n  ![封面]({game['image']})"
+            md_content += "\n"
+    else:
+        md_content += "❌ 当前没有找到任何与 Nintendo Switch 相关的游戏信息。\n"
+
     with open(md_filename, "w", encoding="utf-8") as f:
-        f.write(f"# Nintendo Switch 游戏信息\n更新时间：{current_time} (UTC+8)\n\n")
-        if data:
-            f.write(f"✅ 共找到 {len(data)} 条游戏信息：\n\n")
-            for game in data:
-                f.write(f"- [{game['title']}]({game['link']})")
-                if game['date']:
-                    f.write(f" ({game['date']})")
-                if game['image']:
-                    f.write(f"\n  ![封面]({game['image']})")
-                f.write("\n")
-        else:
-            f.write("❌ 当前没有找到任何与 Nintendo Switch 相关的游戏信息。\n")
+        f.write(md_content)
+    with open(md_latest, "w", encoding="utf-8") as f:
+        f.write(md_content)
 
     print(f"🎉 数据已保存至 {json_filename} 和 {md_filename}")
     return json_filename, md_filename

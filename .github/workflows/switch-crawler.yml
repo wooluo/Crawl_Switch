@@ -7,7 +7,7 @@ on:
 
 jobs:
   crawl-and-update:
-    runs-on: ubuntu-22.04  # 明确指定 Ubuntu 22.04
+    runs-on: ubuntu-22.04
 
     steps:
       # 1. 检出代码
@@ -36,7 +36,7 @@ jobs:
             libasound2 \
             libffi7 \
             libx264-163 \
-            jq  # 安装 jq 用于 JSON 处理
+            jq
           sudo apt-get clean
 
       # 4. 安装 Python 依赖
@@ -56,37 +56,23 @@ jobs:
       - name: 执行爬虫脚本
         run: python crawler.py
 
-      # 7. 获取生成的文件名
-      - name: 获取最新文件名
-        id: files
-        run: |
-          # 获取最新的 JSON 和 MD 文件
-          JSON_FILE=$(ls results_*.json | sort -r | head -n 1)
-          MD_FILE=$(ls switch_news_*.md | sort -r | head -n 1)
-          
-          # 设置输出变量供后续步骤使用
-          echo "json_file=${JSON_FILE}" >> $GITHUB_OUTPUT
-          echo "md_file=${MD_FILE}" >> $GITHUB_OUTPUT
-          
-          echo "找到文件: ${JSON_FILE} 和 ${MD_FILE}"
-
-      # 8. 调试输出
+      # 7. 调试输出
       - name: 显示生成内容
         run: |
           echo "=== 最新新闻 ==="
-          cat ${{ steps.files.outputs.md_file }}
+          cat results/switch_news_latest.md
           echo "\n=== JSON 数据 ==="
-          jq . ${{ steps.files.outputs.json_file }}
+          jq . results/results_latest.json
 
-      # 9. 提交变更
+      # 8. 提交变更
       - name: 自动提交更新
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          
-          # 添加所有新生成的文件
-          git add results_*.json switch_news_*.md
-          
+
+          # 添加新生成的文件
+          git add results/
+
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "自动更新: $(date +'%Y-%m-%d %H:%M')"
             git push origin HEAD:main

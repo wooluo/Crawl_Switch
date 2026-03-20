@@ -1,7 +1,26 @@
-__pycache__
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
 *.log
+
+# Virtual environments
 env/
-.gitignore
-.vscode
-.idea
+venv/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary/debug files
+debug_*.png
+*.tmp
