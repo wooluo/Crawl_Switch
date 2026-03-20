@@ -2,7 +2,19 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-const RESULTS_DIR = path.join(process.cwd(), '../../results/history');
+// Vercel 部署时 results 目录在项目根目录
+function getResultsDir() {
+  // Vercel: process.cwd() 是 /var/task/.next
+  // 项目根目录是 /var/task
+  const cwd = process.cwd();
+  if (cwd.includes('.next')) {
+    return path.join(cwd, '../../results/history');
+  }
+  // 本地开发
+  return path.join(cwd, '../results/history');
+}
+
+const RESULTS_DIR = getResultsDir();
 
 function parseMarkdownFile(content: string): any[] {
   const games: any[] = [];

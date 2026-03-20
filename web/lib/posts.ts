@@ -17,7 +17,16 @@ export interface NewsPost {
   gameCount: number;
 }
 
-const RESULTS_DIR = path.join(process.cwd(), '../results/history');
+// Vercel 部署时 results 目录在项目根目录
+function getResultsDir() {
+  const cwd = process.cwd();
+  if (cwd.includes('.next')) {
+    return path.join(cwd, '../../results/history');
+  }
+  return path.join(cwd, '../results/history');
+}
+
+const RESULTS_DIR = getResultsDir();
 
 function parseMarkdownFile(content: string): Game[] {
   const games: Game[] = [];
