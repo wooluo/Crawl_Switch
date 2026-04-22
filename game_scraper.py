@@ -30,8 +30,10 @@ def get_timestamp():
 def save_results(data):
     """保存结果到文件"""
     timestamp = get_timestamp()
-    json_filename = f"results_{timestamp}.json"
-    md_filename = f"switch_news_{timestamp}.md"
+    results_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'results', 'history')
+    os.makedirs(results_dir, exist_ok=True)
+    json_filename = os.path.join(results_dir, f"results_{timestamp}.json")
+    md_filename = os.path.join(results_dir, f"switch_news_{timestamp}.md")
     current_time = datetime.now(pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M')
 
     # 保存JSON文件

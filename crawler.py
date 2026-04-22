@@ -34,11 +34,12 @@ def save_results(data):
     timestamp = get_timestamp()
 
     # 确保输出目录存在
-    output_dir = "results"
-    os.makedirs(output_dir, exist_ok=True)
+    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'results')
+    history_dir = os.path.join(output_dir, 'history')
+    os.makedirs(history_dir, exist_ok=True)
 
-    json_filename = os.path.join(output_dir, f"results_{timestamp}.json")
-    md_filename = os.path.join(output_dir, f"switch_news_{timestamp}.md")
+    json_filename = os.path.join(history_dir, f"results_{timestamp}.json")
+    md_filename = os.path.join(history_dir, f"switch_news_{timestamp}.md")
 
     # 同时创建 latest 软链接/副本
     json_latest = os.path.join(output_dir, "results_latest.json")
