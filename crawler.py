@@ -86,11 +86,19 @@ def scrape_page(page, url, attempt=1):
         page.goto(
             url,
             timeout=CONFIG['timeout'],
-            wait_until="networkidle"  # 更宽松的等待条件
+            wait_until="domcontentloaded"  # 更快的等待条件
         )
         
         # 等待主要内容加载
-        page.wait_for_selector("article.post", timeout=20000)
+        try:
+            page.wait_for_selector("article.post", timeout=30000)
+        except:
+            # 如果article.post没找到，尝试其他选择器
+            try:
+                page.wait_for_selector("article, .post, .entry", timeout=10000)
+            except:
+                logging.warning(f"未找到文章选择器，使用页面原始内容")
+                time.sleep(3)  # 额外等待JS渲染
         
         # 滚动页面触发懒加载
         for _ in range(3):

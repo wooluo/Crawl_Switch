@@ -62,7 +62,7 @@ jobs:
           echo "=== 最新新闻 ==="
           cat results/switch_news_latest.md
           echo "\n=== JSON 数据 ==="
-          jq . results/results_latest.json
+          jq . results/results_latest.json 2>/dev/null || echo "JSON解析失败"
 
       # 8. 提交变更
       - name: 自动提交更新
