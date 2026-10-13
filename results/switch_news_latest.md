@@ -1,8 +1,14 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-10-13 02:38 (UTC+8)
+更新时间：2026-10-14 00:49 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [热血无赖|官方中文|移植版|](https://www.gamer520.com/123873.html) (2026-10-13T06:57:01+08:00)
+  ![封面](https://v1.imagehub.cc/images/2026/02/12/4ba2f16d1e03975004437f71609e099b.jpg)
+- [勇者地牢 正义之真谛|原汁日文|NSP|](https://www.gamer520.com/123862.html) (2026-10-13T06:02:32+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000018588/630af18715136826e640505369d72fb32cccb36f1f8b59dc078f8ab575e3f2ef)
+- [尸体派对 血色笼罩|汉化中文|XCI|](https://www.gamer520.com/123860.html) (2026-10-13T06:00:02+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000035173/ef81c2d8799eb7b2fa9b3ccda202de04daf6ad86402fc64e67677588f525db9b)
 - [使命召唤4|官方中文|移植版|](https://www.gamer520.com/123812.html) (2026-10-12T06:59:50+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/393080/capsule_616x353.jpg?t=1780963789)
 - [黑暗之魂2|官方中文|NSP|移植版|](https://www.gamer520.com/123810.html) (2026-10-12T06:58:05+08:00)
@@ -37,9 +43,3 @@
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1401590/capsule_616x353.jpg?t=1689883856)
 - [凯蒂猫岛屿冒险 Hello Kitty Island|官方中文|本体+3.0.0升补+3DLC|NSZ|原版|](https://www.gamer520.com/90178.html) (2026-10-10T06:01:06+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2495100/319fa0f2237f4eb2daaed1ca1695f9fb83728ccb/capsule_616x353.jpg?t=1738357302)
-- [喵斯快跑|官方中文|本体+6.7.0升补+2DLC|NSZ|原版|](https://www.gamer520.com/6990.html) (2026-10-10T06:00:42+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1055810/capsule_616x353.jpg?t=1657533782)
-- [人类一败涂地|美版中文|本体+1.6.2+2DLC|[NSZ|原版|](https://www.gamer520.com/5380.html) (2026-10-10T00:02:05+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/477160/capsule_616x353_schinese.jpg?t=1705400786)
-- [幻想鱼箱 Fantasy Aquarium|官方中文|解压即撸|](https://www.gamer520.com/123602.html) (2026-10-09T03:11:16+08:00)
-  ![封面](https://ig.freer.blog/2024/11/22/d57c6d32e21d1.jpg)
