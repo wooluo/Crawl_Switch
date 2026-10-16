@@ -1,8 +1,12 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-10-15 22:01 (UTC+8)
+更新时间：2026-10-16 22:05 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [[限时番外篇]希望 末日血战|4K-中字|韩版生化危机|转存即看|](https://www.gamer520.com/124121.html) (2026-10-16T11:53:24+08:00)
+  ![封面](https://img.odbgo.com/i/2026/10/16/6ad19d984dfff.jpg)
+- [丰收之月 特拉迪亚回声 Harvest Moon|官方中文|本体+1.2.0升补|NSP|](https://www.gamer520.com/124097.html) (2026-10-16T06:00:14+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3591180/17a292935c9e05668e7117503145a63470f10b84/capsule_616x353_schinese.jpg?t=1792036831)
 - [虐杀原形2|移植版|](https://www.gamer520.com/124050.html) (2026-10-15T06:50:54+08:00)
   ![封面](https://img.odbgo.com/i/2026/10/15/6ad09968b3880.jpg)
 - [恶魔城 贝尔蒙特的诅咒|官方中文|本体+1.1.0升补+2DLC+金手指|NSP|](https://www.gamer520.com/123961.html) (2026-10-15T06:00:01+08:00)
@@ -39,7 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/10/09/6ac84ed2aaebb.jpg)
 - [另一个伊甸 起源 Another Eden Begins|官方中文|本体+1.1.2升补|NSZ|](https://www.gamer520.com/122078.html) (2026-10-14T06:08:53+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4163960/711ac5cf35dfc0fce785105138bc6f907260918b/capsule_616x353.jpg?t=1780971707)
-- [鬼泣4|豪华中文|移植版|](https://www.gamer520.com/123749.html) (2026-10-14T06:02:52+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/329050/capsule_616x353.jpg?t=1785808952)
-- [使命召唤4|豪华中文|移植版|](https://www.gamer520.com/123812.html) (2026-10-14T06:00:50+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/393080/capsule_616x353.jpg?t=1780963789)
