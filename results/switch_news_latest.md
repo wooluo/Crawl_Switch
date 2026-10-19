@@ -1,8 +1,10 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-10-18 21:06 (UTC+8)
+更新时间：2026-10-20 00:16 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [失落的奥德赛|移植版|](https://www.gamer520.com/124231.html) (2026-10-19T03:00:38+08:00)
+  ![封面](https://img.odbgo.com/i/2026/10/19/6ad57274132c2.jpg)
 - [愤怒的小鸟 星球大战2|移植版|](https://www.gamer520.com/124203.html) (2026-10-17T06:59:32+08:00)
   ![封面](https://img.odbgo.com/i/2026/10/18/6ad42e6635aa9.jpg)
 - [泽诺尼亚传奇2|移植版|](https://www.gamer520.com/124205.html) (2026-10-17T06:59:19+08:00)
@@ -41,5 +43,3 @@
   ![封面](https://img-eshop.cdn.nintendo.net/i/58dee298de89609c4b6a4894aa07f8026f7833fea6c1ad27e79e4e743a0a840f.jpg?w=1000)
 - [无人深空|官方中文|本体+7.6.0升补|NSZ|原版|](https://www.gamer520.com/42700.html) (2026-10-15T04:00:00+08:00)
   ![封面](https://s1.imagehub.cc/images/2025/09/02/5a7cc0d4947f592ab35c3c300d583e4c.jpg)
-- [马里奥赛车8 豪华版|美版中文|本体+4.01补丁+1DLC|NSZ|原版|](https://www.gamer520.com/100747.html) (2026-10-14T06:59:58+08:00)
-  ![封面](https://ig.freer.blog/2023/11/09/76125c4c465d1.jpg)
