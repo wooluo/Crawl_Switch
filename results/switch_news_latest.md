@@ -1,8 +1,16 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-10-20 00:16 (UTC+8)
+更新时间：2026-10-20 22:11 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [新仙剑奇侠传|移植版|NSP|](https://www.gamer520.com/124305.html) (2026-10-20T05:00:22+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/695630/capsule_616x353.jpg?t=1627366016)
+- [冰汽时代 Frostpunk|官方中文|本体+1.0.1升补+1DLC|NSP|](https://www.gamer520.com/124278.html) (2026-10-20T03:50:00+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/323190/capsule_616x353.jpg?t=1724859064)
+- [霓虹深渊2|官方中文|本体+1.0.1升补|NSP|](https://www.gamer520.com/124280.html) (2026-10-20T03:20:43+08:00)
+  ![封面](https://img.odbgo.com/i/2026/07/29/6a695cb187f3f.jpg)
+- [安娜历险记|官方中文|本体+1.0.4升补|NSZ|原版|](https://www.gamer520.com/60673.html) (2026-10-20T03:00:01+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000064384/fb3e2281b38919bb99625a5c427b79671e1f7af5f519499be6d7840b34409eff)
 - [失落的奥德赛|移植版|](https://www.gamer520.com/124231.html) (2026-10-19T03:00:38+08:00)
   ![封面](https://img.odbgo.com/i/2026/10/19/6ad57274132c2.jpg)
 - [愤怒的小鸟 星球大战2|移植版|](https://www.gamer520.com/124203.html) (2026-10-17T06:59:32+08:00)
@@ -35,11 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/10/15/6ad09968b3880.jpg)
 - [恶魔城 贝尔蒙特的诅咒|官方中文|本体+1.1.0升补+2DLC+金手指|NSP|](https://www.gamer520.com/123961.html) (2026-10-15T06:00:01+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1788478863)
-- [永恒传说 重制版 Tales of Eternia|官方中文|本体+v2.0.0升补|NSP|](https://www.gamer520.com/124020.html) (2026-10-15T05:10:17+08:00)
-  ![封面](https://img-eshop.cdn.nintendo.net/i/02bbceb6226179f76015215ddfb014738b2869c67b0c8a64cba06d6e104e2080.jpg?w=1000)
-- [泽诺尼亚 ZENONIA|官方中文|本体+1.0.1升补|NSP|](https://www.gamer520.com/124019.html) (2026-10-15T05:00:09+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4538960/66e9a1074e3d7bd8e58e515a76f4341cf7c09af1/capsule_616x353.jpg?t=1788159622)
-- [女武神传说 Valkyrie Saga|官方中文|NSP|](https://www.gamer520.com/124024.html) (2026-10-15T04:00:52+08:00)
-  ![封面](https://img-eshop.cdn.nintendo.net/i/58dee298de89609c4b6a4894aa07f8026f7833fea6c1ad27e79e4e743a0a840f.jpg?w=1000)
-- [无人深空|官方中文|本体+7.6.0升补|NSZ|原版|](https://www.gamer520.com/42700.html) (2026-10-15T04:00:00+08:00)
-  ![封面](https://s1.imagehub.cc/images/2025/09/02/5a7cc0d4947f592ab35c3c300d583e4c.jpg)
