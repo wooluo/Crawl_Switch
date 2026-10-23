@@ -1,8 +1,18 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-10-22 23:07 (UTC+8)
+更新时间：2026-10-23 22:09 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [仙剑奇侠传2|官方中文|移植版|](https://www.gamer520.com/124511.html) (2026-10-23T02:50:28+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1538460/capsule_616x353.jpg?t=1627366574)
+- [死亡空间2|官方中文|移植版|](https://www.gamer520.com/124503.html) (2026-10-23T02:10:52+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/47780/05fbce6936e63dd66ba2f0395964b54a8ad010b5/capsule_616x353.jpg?t=1782255426)
+- [恶魔夜疯狂DEMONS’ NIGHT FEVER|官方中文|NSP|](https://www.gamer520.com/124505.html) (2026-10-23T02:10:08+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3502620/fa3eb1e664087f546e81090c1b4dc251cd8886d4/capsule_616x353.jpg?t=1792631114)
+- [使命召唤9|移植版|](https://www.gamer520.com/124501.html) (2026-10-23T02:02:53+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/202970/capsule_616x353.jpg?t=1780962925)
+- [但丁地狱|xbox360移植版|](https://www.gamer520.com/124499.html) (2026-10-23T02:00:47+08:00)
+  ![封面](https://img.odbgo.com/i/2026/10/23/6adaa1b48ee97.jpg)
 - [最终幻想 共鸣|港版中文|本体+1.0.1升补+1DLC|NSP|](https://www.gamer520.com/124439.html) (2026-10-22T06:50:33+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1788534743)
 - [海贼王海洋盛宴 ONE PIECE海洋盛宴|官方中文|NSP|](https://www.gamer520.com/124446.html) (2026-10-22T05:30:48+08:00)
@@ -33,13 +43,3 @@
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/323190/capsule_616x353.jpg?t=1724859064)
 - [霓虹深渊2|官方中文|本体+1.0.1升补|NSP|](https://www.gamer520.com/124280.html) (2026-10-20T03:20:43+08:00)
   ![封面](https://img.odbgo.com/i/2026/07/29/6a695cb187f3f.jpg)
-- [安娜历险记|官方中文|本体+1.0.4升补|NSZ|原版|](https://www.gamer520.com/60673.html) (2026-10-20T03:00:01+08:00)
-  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000064384/fb3e2281b38919bb99625a5c427b79671e1f7af5f519499be6d7840b34409eff)
-- [失落的奥德赛|移植版|](https://www.gamer520.com/124231.html) (2026-10-19T03:00:38+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/19/6ad57274132c2.jpg)
-- [愤怒的小鸟 星球大战2|移植版|](https://www.gamer520.com/124203.html) (2026-10-17T06:59:32+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/18/6ad42e6635aa9.jpg)
-- [泽诺尼亚传奇2|移植版|](https://www.gamer520.com/124205.html) (2026-10-17T06:59:19+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4991990/47dee3ceea6edd101b1d155664efae61a087cfbf/capsule_616x353.jpg?t=1791337730)
-- [圣斗士星矢 斗士之魂|移植版|](https://www.gamer520.com/124193.html) (2026-10-17T06:58:08+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/17/6ad393f968c72.jpg)
