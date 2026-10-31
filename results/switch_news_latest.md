@@ -1,8 +1,16 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-10-30 23:39 (UTC+8)
+更新时间：2026-10-31 23:08 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [另一个伊甸 起源 Another Eden Begins|官方中文|本体+1.1.3升补|NSZ|](https://www.gamer520.com/122078.html) (2026-10-31T06:10:53+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4163960/711ac5cf35dfc0fce785105138bc6f907260918b/capsule_616x353.jpg?t=1780971707)
+- [明治东京恋语 暮光之吻 Twilight Kiss|官方中文|NSP|](https://www.gamer520.com/125060.html) (2026-10-31T06:02:00+08:00)
+  ![封面](https://img-eshop.cdn.nintendo.net/i/8fa47c9f63b4f1ee0f25d6cc2a7d159058a5c4e063603af05c1cc102280549f8.jpg?w=1000)
+- [蓝龙|移植版|](https://www.gamer520.com/125062.html) (2026-10-31T06:00:42+08:00)
+  ![封面](https://img.odbgo.com/i/2026/10/29/6ae2ae9f530b8.jpg)
+- [龙珠 天下第一大冒险|移植版|](https://www.gamer520.com/125057.html) (2026-10-31T06:00:22+08:00)
+  ![封面](https://img.odbgo.com/i/2026/10/31/6ae562209eb83.jpg)
 - [西瓜游戏 合成大西瓜 スイカゲーム|官方中文|本体+2.4.1升补+30DLC|NSZ|原版|](https://www.gamer520.com/66897.html) (2026-10-30T05:02:15+08:00)
   ![封面](https://ig.freer.blog/2023/10/29/b9dc2092d7262.jpg)
 - [梦塔比 Montabimb|官方中文|本体+1.1.3升补|NSZ|](https://www.gamer520.com/119569.html) (2026-10-30T05:00:53+08:00)
@@ -35,11 +43,3 @@
   ![封面](https://img-eshop.cdn.nintendo.net/i/a8443e12547f5f880e14ec487953e49d5526e3a6ce8ba3fbe6196452c4358ac1.jpg?w=1000)
 - [极限竞速地平线1|移植版|](https://www.gamer520.com/124847.html) (2026-10-28T05:21:25+08:00)
   ![封面](https://img.odbgo.com/i/2026/10/28/6ae20c517a192.jpg)
-- [现代战争4 决战时刻|移植版|](https://www.gamer520.com/124845.html) (2026-10-28T05:15:48+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/28/6ae20b93cd334.jpg)
-- [真人快打9|移植版|](https://www.gamer520.com/124843.html) (2026-10-28T05:12:21+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/28/6ae20a3559f44.jpg)
-- [我的世界 基岩版|官方中文|本体+1.26.60升补|NSZ|原版|](https://www.gamer520.com/7500.html) (2026-10-28T05:11:25+08:00)
-  ![封面](https://ig.freer.blog/2023/09/20/0641a862d79b1.jpg)
-- [龙珠:超宇宙2|官方中文|本体+1.27.00升补+89DLC|NSZ|原版|](https://www.gamer520.com/5015.html) (2026-10-28T05:05:20+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/454650/capsule_616x353.jpg?t=1716395125)
