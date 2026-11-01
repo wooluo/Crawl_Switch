@@ -1,8 +1,16 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-10-31 23:08 (UTC+8)
+更新时间：2026-11-01 23:50 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [熊鼠一家疯狂派对 Grizzy and the Lemmings|官方中文|本体+v1.0.4升补|NSP|](https://www.gamer520.com/125097.html) (2026-11-01T04:20:37+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000126411/bba260c1b8a75ecd54ae7357e25b95a2c9d8b1f4e4329087702ffef2ea250b5e)
+- [樱花大战|移植版|](https://www.gamer520.com/125095.html) (2026-11-01T04:12:13+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/01/6ae681c147012.jpg)
+- [明星三缺一|移植版|](https://www.gamer520.com/125093.html) (2026-11-01T04:10:16+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/01/6ae680ca812f4.jpg)
+- [豪血寺一族3|移植版|](https://www.gamer520.com/125091.html) (2026-11-01T04:00:28+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/01/6ae67dbc4aaed.jpg)
 - [另一个伊甸 起源 Another Eden Begins|官方中文|本体+1.1.3升补|NSZ|](https://www.gamer520.com/122078.html) (2026-10-31T06:10:53+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4163960/711ac5cf35dfc0fce785105138bc6f907260918b/capsule_616x353.jpg?t=1780971707)
 - [明治东京恋语 暮光之吻 Twilight Kiss|官方中文|NSP|](https://www.gamer520.com/125060.html) (2026-10-31T06:02:00+08:00)
@@ -35,11 +43,3 @@
   ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000086956/d13ae5d926b6c7ad34769073b7d91012d6ed55f0082600ab334ab941c9340060)
 - [丰收之月 特拉迪亚回声 Harvest Moon Echoes of Teradea|官方中文|本体+v1.3.0升补|NSP|](https://www.gamer520.com/124897.html) (2026-10-29T05:05:00+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3591180/17a292935c9e05668e7117503145a63470f10b84/capsule_616x353_schinese.jpg?t=1792036831)
-- [神探狗狗  汪者归来 Dog Man Bark in Action|官方中文|本体+v1.0.3升补|NSP|](https://www.gamer520.com/124894.html) (2026-10-29T05:01:36+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4782240/4fb51f1157d1b018b14ab859af4a75704e98efe7/capsule_616x353.jpg?t=1793112681)
-- [主机保卫队 Mainframe Defenders|官方中文|本体+v1.0.1升补|NSP|](https://www.gamer520.com/124892.html) (2026-10-29T05:00:18+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1184810/7452c950622facb49b3f2a2641145ea2a2c5630a/capsule_616x353.jpg?t=1789421386)
-- [女王之刃 构造 Queens Blade ReBuild|官方中文|本体+1.0.1升补|NSP|](https://www.gamer520.com/124849.html) (2026-10-28T05:55:53+08:00)
-  ![封面](https://img-eshop.cdn.nintendo.net/i/a8443e12547f5f880e14ec487953e49d5526e3a6ce8ba3fbe6196452c4358ac1.jpg?w=1000)
-- [极限竞速地平线1|移植版|](https://www.gamer520.com/124847.html) (2026-10-28T05:21:25+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/28/6ae20c517a192.jpg)
