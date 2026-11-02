@@ -1,8 +1,12 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-01 23:50 (UTC+8)
+更新时间：2026-11-03 03:12 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [天地劫 三部曲|中文|移植版|](https://www.gamer520.com/125143.html) (2026-11-02T05:10:21+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/02/6ae7d5b1dee14.jpg)
+- [School Days HQ|移植版|](https://www.gamer520.com/125145.html) (2026-11-02T05:00:16+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/02/6ae7d6a28affb.jpg)
 - [熊鼠一家疯狂派对 Grizzy and the Lemmings|官方中文|本体+v1.0.4升补|NSP|](https://www.gamer520.com/125097.html) (2026-11-01T04:20:37+08:00)
   ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000126411/bba260c1b8a75ecd54ae7357e25b95a2c9d8b1f4e4329087702ffef2ea250b5e)
 - [樱花大战|移植版|](https://www.gamer520.com/125095.html) (2026-11-01T04:12:13+08:00)
@@ -39,7 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/10/29/6ae3678a2cb9d.jpg)
 - [帝国时代2|移植版|](https://www.gamer520.com/124916.html) (2026-10-29T05:11:47+08:00)
   ![封面](https://img.odbgo.com/i/2026/10/29/6ae366ed3d789.jpg)
-- [鬼灭之刃 火之神血风谭2|官方中文|本体+v2.01升补+12DLC|NSP|原版|](https://www.gamer520.com/97137.html) (2026-10-29T05:10:13+08:00)
-  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000086956/d13ae5d926b6c7ad34769073b7d91012d6ed55f0082600ab334ab941c9340060)
-- [丰收之月 特拉迪亚回声 Harvest Moon Echoes of Teradea|官方中文|本体+v1.3.0升补|NSP|](https://www.gamer520.com/124897.html) (2026-10-29T05:05:00+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3591180/17a292935c9e05668e7117503145a63470f10b84/capsule_616x353_schinese.jpg?t=1792036831)
