@@ -1,8 +1,10 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-04 00:57 (UTC+8)
+更新时间：2026-11-05 00:54 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [战国无双 真田丸|汉化中文|本体+1.0.1升补+汉化补丁+金手指|解压即撸|](https://www.gamer520.com/125265.html) (2026-11-04T05:00:44+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/595740/capsule_616x353_tchinese.jpg?t=1775536227)
 - [EA SPORTS FC27|官方中文|本体+1.8d.6523升补+1DLC|NSZ|](https://www.gamer520.com/122727.html) (2026-11-03T06:00:43+08:00)
   ![封面](https://img.odbgo.com/i/2026/09/25/6ab62f814e7d7.jpg)
 - [天地劫 三部曲|中文|移植版|](https://www.gamer520.com/125143.html) (2026-11-02T05:10:21+08:00)
@@ -41,5 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/10/29/6ae368dba835f.jpg)
 - [使命召唤1|移植版|](https://www.gamer520.com/124920.html) (2026-10-29T05:15:21+08:00)
   ![封面](https://img.odbgo.com/i/2026/10/29/6ae368137b657.jpg)
-- [瑞奇与叮当|移植版|](https://www.gamer520.com/124918.html) (2026-10-29T05:12:09+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/29/6ae3678a2cb9d.jpg)
