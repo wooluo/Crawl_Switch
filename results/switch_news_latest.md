@@ -1,8 +1,14 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-06 01:11 (UTC+8)
+更新时间：2026-11-07 00:42 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [神曲战姬 零域和鸣 Valkyrie Tune Synthesis of Souls|官方中文|NSZ|](https://www.gamer520.com/125433.html) (2026-11-06T05:01:18+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000131924/c7383afce5d09b45ebed3a35725f640bbab94b194287659247a4621f4581a795)
+- [无尽幻樱阁 Eternal Palace Sakura|官方中文|NSZ|](https://www.gamer520.com/125435.html) (2026-11-06T05:00:22+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/05/6aebce1f2cc58.jpg)
+- [龙骑士之墓 重制版 Dungeon Of Dragon Knight Remake|官方中文|NSZ|](https://www.gamer520.com/125430.html) (2026-11-06T05:00:09+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch/70010000112331/d74d2f8c4a5ee08420175cdbc828f8f9d6fa5f0b261670dd9c7add0ad2d874b2)
 - [死亡空间1|汉化中文|移植版|](https://www.gamer520.com/125343.html) (2026-11-05T05:10:40+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/05/6aebea75b0b51.jpg)
 - [但丁的地狱|汉化中文|移植版|](https://www.gamer520.com/125341.html) (2026-11-05T05:06:42+08:00)
@@ -37,9 +43,3 @@
   ![封面](https://img-eshop.cdn.nintendo.net/i/8fa47c9f63b4f1ee0f25d6cc2a7d159058a5c4e063603af05c1cc102280549f8.jpg?w=1000)
 - [蓝龙|移植版|](https://www.gamer520.com/125062.html) (2026-10-31T06:00:42+08:00)
   ![封面](https://img.odbgo.com/i/2026/10/29/6ae2ae9f530b8.jpg)
-- [龙珠 天下第一大冒险|移植版|](https://www.gamer520.com/125057.html) (2026-10-31T06:00:22+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/31/6ae562209eb83.jpg)
-- [西瓜游戏 合成大西瓜 スイカゲーム|官方中文|本体+2.4.1升补+30DLC|NSZ|原版|](https://www.gamer520.com/66897.html) (2026-10-30T05:02:15+08:00)
-  ![封面](https://ig.freer.blog/2023/10/29/b9dc2092d7262.jpg)
-- [梦塔比 Montabimb|官方中文|本体+1.1.3升补|NSZ|](https://www.gamer520.com/119569.html) (2026-10-30T05:00:53+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3141630/56356fce78e4d0776ca50aa7a039a23b38b5f9b2/capsule_616x353_schinese.jpg?t=1786031233)
