@@ -1,8 +1,16 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-08 23:52 (UTC+8)
+更新时间：2026-11-10 03:35 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [霓虹深渊2|官方中文|本体+1.0.2升补+2DLC|NSP|](https://www.gamer520.com/124280.html) (2026-11-09T03:10:43+08:00)
+  ![封面](https://img.odbgo.com/i/2026/07/29/6a695cb187f3f.jpg)
+- [戴帽子的猫 雨天大乱斗|官方中文|本体+1.0.1升补|NSP|](https://www.gamer520.com/125589.html) (2026-11-09T03:03:59+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3465710/5471b7716b4b82db9f70eb5183d9df38a9c2bb14/capsule_616x353.jpg?t=1793351877)
+- [K-Pop新星 梦想闪耀|官方中文|本体+1.0.6962升补|NSP|](https://www.gamer520.com/125586.html) (2026-11-09T03:01:01+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4407640/624a030a9ba44d06ddf8f86215d0d37df9e7d752/capsule_616x353.jpg?t=1793894440)
+- [狡猾的幸存者 Crafty Survivors|官方中文|本体+1.1.1升补|NSP|](https://www.gamer520.com/125584.html) (2026-11-09T03:00:31+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2137760/capsule_616x353.jpg?t=1732998340)
 - [神曲战姬 零域和鸣 Valkyrie Tune Synthesis of Souls|官方中文|NSZ|](https://www.gamer520.com/125433.html) (2026-11-06T05:01:18+08:00)
   ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000131924/c7383afce5d09b45ebed3a35725f640bbab94b194287659247a4621f4581a795)
 - [无尽幻樱阁 Eternal Palace Sakura|官方中文|NSZ|](https://www.gamer520.com/125435.html) (2026-11-06T05:00:22+08:00)
@@ -35,11 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/11/01/6ae681c147012.jpg)
 - [明星三缺一|移植版|](https://www.gamer520.com/125093.html) (2026-11-01T04:10:16+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/01/6ae680ca812f4.jpg)
-- [豪血寺一族3|移植版|](https://www.gamer520.com/125091.html) (2026-11-01T04:00:28+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/01/6ae67dbc4aaed.jpg)
-- [另一个伊甸 起源 Another Eden Begins|官方中文|本体+1.1.3升补|NSZ|](https://www.gamer520.com/122078.html) (2026-10-31T06:10:53+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4163960/711ac5cf35dfc0fce785105138bc6f907260918b/capsule_616x353.jpg?t=1780971707)
-- [明治东京恋语 暮光之吻 Twilight Kiss|官方中文|NSP|](https://www.gamer520.com/125060.html) (2026-10-31T06:02:00+08:00)
-  ![封面](https://img-eshop.cdn.nintendo.net/i/8fa47c9f63b4f1ee0f25d6cc2a7d159058a5c4e063603af05c1cc102280549f8.jpg?w=1000)
-- [蓝龙|移植版|](https://www.gamer520.com/125062.html) (2026-10-31T06:00:42+08:00)
-  ![封面](https://img.odbgo.com/i/2026/10/29/6ae2ae9f530b8.jpg)
