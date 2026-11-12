@@ -1,8 +1,18 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-11 00:54 (UTC+8)
+更新时间：2026-11-13 01:28 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [怪物史莱克2 重制版 Shrek 2 Remastered|官方中文|本体+1.0.4升补|NSP|](https://www.gamer520.com/125815.html) (2026-11-12T06:05:31+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch2/70010000101621/f3b78055f8bf6db7b5a13712361423dc596f526a5ae8ab4e6d634b6ba1fcbfa7)
+- [青夏轨迹|官方中文|移植版|](https://www.gamer520.com/125797.html) (2026-11-12T05:00:28+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2185770/capsule_616x353.jpg?t=1670471787)
+- [战锤幸存者 Warhammer Survivors|官方中文|本体+v2.1.2升补|NSP|](https://www.gamer520.com/125740.html) (2026-11-11T05:10:19+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3669620/551bc7d10ffe0dab2dceeb6add75cf47a2e4d8ac/capsule_616x353.jpg?t=1794319205)
+- [破石化 自然回响 Unpetrified: Echoes of Nature|官方中文|本体+v1.0.3.0升补|NSP|](https://www.gamer520.com/125738.html) (2026-11-11T05:02:23+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000100545/f786be5ee00ba54caef035093de4d0233a24a56940e2ea157f64f74dd9300f5c)
+- [狸狸 胖哒的夏日 TANUKI Pon’s Summer|官方中文|本体+v1.0.28494.20.12升补|NSP|](https://www.gamer520.com/125736.html) (2026-11-11T05:00:20+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000134011/00a0c5edef61f838b2df2afb23bcd9d799b3cbbdd2db9cafbd43591664aeed5c)
 - [霓虹深渊2|官方中文|本体+1.0.2升补+2DLC|NSP|](https://www.gamer520.com/124280.html) (2026-11-09T03:10:43+08:00)
   ![封面](https://img.odbgo.com/i/2026/07/29/6a695cb187f3f.jpg)
 - [戴帽子的猫 雨天大乱斗|官方中文|本体+1.0.1升补|NSP|](https://www.gamer520.com/125589.html) (2026-11-09T03:03:59+08:00)
@@ -33,13 +43,3 @@
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/595740/capsule_616x353_tchinese.jpg?t=1775536227)
 - [EA SPORTS FC27|官方中文|本体+1.8d.6523升补+1DLC|NSZ|](https://www.gamer520.com/122727.html) (2026-11-03T06:00:43+08:00)
   ![封面](https://img.odbgo.com/i/2026/09/25/6ab62f814e7d7.jpg)
-- [天地劫 三部曲|中文|移植版|](https://www.gamer520.com/125143.html) (2026-11-02T05:10:21+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/02/6ae7d5b1dee14.jpg)
-- [School Days HQ|移植版|](https://www.gamer520.com/125145.html) (2026-11-02T05:00:16+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/02/6ae7d6a28affb.jpg)
-- [熊鼠一家疯狂派对 Grizzy and the Lemmings|官方中文|本体+v1.0.4升补|NSP|](https://www.gamer520.com/125097.html) (2026-11-01T04:20:37+08:00)
-  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000126411/bba260c1b8a75ecd54ae7357e25b95a2c9d8b1f4e4329087702ffef2ea250b5e)
-- [樱花大战|移植版|](https://www.gamer520.com/125095.html) (2026-11-01T04:12:13+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/01/6ae681c147012.jpg)
-- [明星三缺一|移植版|](https://www.gamer520.com/125093.html) (2026-11-01T04:10:16+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/01/6ae680ca812f4.jpg)
