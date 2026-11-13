@@ -1,8 +1,18 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-13 01:28 (UTC+8)
+更新时间：2026-11-14 01:04 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [EA SPORTS FC27|官方中文|本体+1.8d.f570升补+1DLC|NSZ|](https://www.gamer520.com/122727.html) (2026-11-13T03:10:43+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/13/6af65f00a98c1.jpg)
+- [哥斯拉 摧毁所有怪兽搏击 重制版|官方中文|本体+1.0.3升补|NSP|](https://www.gamer520.com/125888.html) (2026-11-13T03:05:51+08:00)
+  ![封面](https://img-eshop.cdn.nintendo.net/i/ae95e0f4075c88c6926d2730f58ba5bede755463375f65a95020857735d3af12.jpg?w=1000)
+- [无人深空|官方中文|本体+7.10.0升补|NSZ|原版|](https://www.gamer520.com/42700.html) (2026-11-13T03:03:00+08:00)
+  ![封面](https://s1.imagehub.cc/images/2025/09/02/5a7cc0d4947f592ab35c3c300d583e4c.jpg)
+- [我的世界 基岩版|官方中文|本体+1.26.62升补|NSZ|原版|](https://www.gamer520.com/7500.html) (2026-11-13T03:01:25+08:00)
+  ![封面](https://ig.freer.blog/2023/09/20/0641a862d79b1.jpg)
+- [文明7 Sid Meier’s Civilization® VII|官方中文|本体+1.5.1升补+30DLC|NSZ|](https://www.gamer520.com/104614.html) (2026-11-13T03:00:54+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1295660/capsule_616x353.jpg?t=1738771302)
 - [怪物史莱克2 重制版 Shrek 2 Remastered|官方中文|本体+1.0.4升补|NSP|](https://www.gamer520.com/125815.html) (2026-11-12T06:05:31+08:00)
   ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch2/70010000101621/f3b78055f8bf6db7b5a13712361423dc596f526a5ae8ab4e6d634b6ba1fcbfa7)
 - [青夏轨迹|官方中文|移植版|](https://www.gamer520.com/125797.html) (2026-11-12T05:00:28+08:00)
@@ -33,13 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/11/05/6aebea06aa1ed.jpg)
 - [寂静岭PT|移植版|](https://www.gamer520.com/125339.html) (2026-11-05T05:05:17+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/05/6aebe9821e68d.jpg)
-- [闪客1|移植版|](https://www.gamer520.com/125337.html) (2026-11-05T05:01:14+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/6120/capsule_616x353.jpg?t=1792788502)
-- [闪客2|移植版|](https://www.gamer520.com/125335.html) (2026-11-05T05:01:04+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/05/6aebe878144d9.jpg)
-- [光环 战斗进化|汉化中文|移植版|](https://www.gamer520.com/125333.html) (2026-11-05T05:00:54+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/05/6aebe6cde0b33.jpg)
-- [战国无双 真田丸|汉化中文|本体+1.0.1升补+汉化补丁+金手指|解压即撸|](https://www.gamer520.com/125265.html) (2026-11-04T05:00:44+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/595740/capsule_616x353_tchinese.jpg?t=1775536227)
-- [EA SPORTS FC27|官方中文|本体+1.8d.6523升补+1DLC|NSZ|](https://www.gamer520.com/122727.html) (2026-11-03T06:00:43+08:00)
-  ![封面](https://img.odbgo.com/i/2026/09/25/6ab62f814e7d7.jpg)
