@@ -1,8 +1,10 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-14 01:04 (UTC+8)
+更新时间：2026-11-14 23:38 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [暗黑破坏神2|官方中文|本体+1.0.35.0升补+1DLC+离线MOD|NSP|](https://www.gamer520.com/22636.html) (2026-11-14T03:00:40+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1771023640)
 - [EA SPORTS FC27|官方中文|本体+1.8d.f570升补+1DLC|NSZ|](https://www.gamer520.com/122727.html) (2026-11-13T03:10:43+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/13/6af65f00a98c1.jpg)
 - [哥斯拉 摧毁所有怪兽搏击 重制版|官方中文|本体+1.0.3升补|NSP|](https://www.gamer520.com/125888.html) (2026-11-13T03:05:51+08:00)
@@ -41,5 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/11/05/6aebea75b0b51.jpg)
 - [但丁的地狱|汉化中文|移植版|](https://www.gamer520.com/125341.html) (2026-11-05T05:06:42+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/05/6aebea06aa1ed.jpg)
-- [寂静岭PT|移植版|](https://www.gamer520.com/125339.html) (2026-11-05T05:05:17+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/05/6aebe9821e68d.jpg)
