@@ -1,8 +1,16 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-14 23:38 (UTC+8)
+更新时间：2026-11-16 00:11 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [丰收之月 特拉迪亚回声 Harvest Moon Echoes of Teradea|官方中文|本体+v1.4.0升补|NSP|](https://www.gamer520.com/124897.html) (2026-11-15T06:03:00+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3591180/17a292935c9e05668e7117503145a63470f10b84/capsule_616x353_schinese.jpg?t=1792036831)
+- [永恒传说 重制版 Tales of Eternia|官方中文|本体+v2.1.0升补|NSP|](https://www.gamer520.com/124020.html) (2026-11-15T06:02:17+08:00)
+  ![封面](https://img-eshop.cdn.nintendo.net/i/02bbceb6226179f76015215ddfb014738b2869c67b0c8a64cba06d6e104e2080.jpg?w=1000)
+- [和平之怒|官方中文|本体+1.2.0升补|NSP|](https://www.gamer520.com/30562.html) (2026-11-15T06:00:59+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch/70010000013550/Video/posters/ae1598cc8f2efbbbb4767ba5178bf88007e64be27fe1e3d0cf27f0696e9e2e1a)
+- [水浒演武 风云再起|移植版|](https://www.gamer520.com/125997.html) (2026-11-15T06:00:49+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/15/6af905851e182.jpg)
 - [暗黑破坏神2|官方中文|本体+1.0.35.0升补+1DLC+离线MOD|NSP|](https://www.gamer520.com/22636.html) (2026-11-14T03:00:40+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1771023640)
 - [EA SPORTS FC27|官方中文|本体+1.8d.f570升补+1DLC|NSZ|](https://www.gamer520.com/122727.html) (2026-11-13T03:10:43+08:00)
@@ -35,11 +43,3 @@
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2137760/capsule_616x353.jpg?t=1732998340)
 - [神曲战姬 零域和鸣 Valkyrie Tune Synthesis of Souls|官方中文|NSZ|](https://www.gamer520.com/125433.html) (2026-11-06T05:01:18+08:00)
   ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000131924/c7383afce5d09b45ebed3a35725f640bbab94b194287659247a4621f4581a795)
-- [无尽幻樱阁 Eternal Palace Sakura|官方中文|NSZ|](https://www.gamer520.com/125435.html) (2026-11-06T05:00:22+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/05/6aebce1f2cc58.jpg)
-- [龙骑士之墓 重制版 Dungeon Of Dragon Knight Remake|官方中文|NSZ|](https://www.gamer520.com/125430.html) (2026-11-06T05:00:09+08:00)
-  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch/70010000112331/d74d2f8c4a5ee08420175cdbc828f8f9d6fa5f0b261670dd9c7add0ad2d874b2)
-- [死亡空间1|汉化中文|移植版|](https://www.gamer520.com/125343.html) (2026-11-05T05:10:40+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/05/6aebea75b0b51.jpg)
-- [但丁的地狱|汉化中文|移植版|](https://www.gamer520.com/125341.html) (2026-11-05T05:06:42+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/05/6aebea06aa1ed.jpg)
