@@ -1,8 +1,12 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-16 00:11 (UTC+8)
+更新时间：2026-11-17 03:19 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [守墓人2 Graveyard Keeper 2|官方中文|本体+1.0.5升补+1DLC|NSP|](https://www.gamer520.com/122551.html) (2026-11-16T06:00:44+08:00)
+  ![封面](https://img.odbgo.com/i/2026/09/23/6ab2fa00c46c2.jpg)
+- [恶魔城X 月下夜想曲|豪华中文|V1.0.2|移植版|](https://www.gamer520.com/126049.html) (2026-11-16T05:00:53+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/16/6afa584fa6543.jpg)
 - [丰收之月 特拉迪亚回声 Harvest Moon Echoes of Teradea|官方中文|本体+v1.4.0升补|NSP|](https://www.gamer520.com/124897.html) (2026-11-15T06:03:00+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3591180/17a292935c9e05668e7117503145a63470f10b84/capsule_616x353_schinese.jpg?t=1792036831)
 - [永恒传说 重制版 Tales of Eternia|官方中文|本体+v2.1.0升补|NSP|](https://www.gamer520.com/124020.html) (2026-11-15T06:02:17+08:00)
@@ -39,7 +43,3 @@
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3465710/5471b7716b4b82db9f70eb5183d9df38a9c2bb14/capsule_616x353.jpg?t=1793351877)
 - [K-Pop新星 梦想闪耀|官方中文|本体+1.0.6962升补|NSP|](https://www.gamer520.com/125586.html) (2026-11-09T03:01:01+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4407640/624a030a9ba44d06ddf8f86215d0d37df9e7d752/capsule_616x353.jpg?t=1793894440)
-- [狡猾的幸存者 Crafty Survivors|官方中文|本体+1.1.1升补|NSP|](https://www.gamer520.com/125584.html) (2026-11-09T03:00:31+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2137760/capsule_616x353.jpg?t=1732998340)
-- [神曲战姬 零域和鸣 Valkyrie Tune Synthesis of Souls|官方中文|NSZ|](https://www.gamer520.com/125433.html) (2026-11-06T05:01:18+08:00)
-  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000131924/c7383afce5d09b45ebed3a35725f640bbab94b194287659247a4621f4581a795)
