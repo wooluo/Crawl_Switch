@@ -1,8 +1,18 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-18 02:12 (UTC+8)
+更新时间：2026-11-19 01:55 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [仙剑奇侠传5|官方中文|移植版|](https://www.gamer520.com/126221.html) (2026-11-18T05:11:39+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1569930/capsule_616x353.jpg?t=1627367102)
+- [最终幻想13-2|官方中文|移植版|](https://www.gamer520.com/126216.html) (2026-11-18T05:03:46+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/292140/capsule_616x353.jpg?t=1775177243)
+- [宝可梦GS Vitro|移植版|](https://www.gamer520.com/126218.html) (2026-11-18T05:03:35+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/18/6afd0d58a4b73.jpg)
+- [刀魂2|移植版|](https://www.gamer520.com/126214.html) (2026-11-18T05:01:28+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/18/6afd0ba77c35b.jpg)
+- [战神1+2合集|汉化移植版|](https://www.gamer520.com/126212.html) (2026-11-18T05:00:15+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/18/6afd09f3edefa.jpg)
 - [二之国 白色圣灰的女王|V2.0汉化配音整合版|NSP|](https://www.gamer520.com/126136.html) (2026-11-17T05:10:18+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/17/6afbb2260ca0f.jpg)
 - [恶魔城 贝尔蒙特的诅咒|官方中文|本体+1.1.4升补+2DLC|NSP|](https://www.gamer520.com/123961.html) (2026-11-17T05:10:01+08:00)
@@ -33,13 +43,3 @@
   ![封面](https://s1.imagehub.cc/images/2025/09/02/5a7cc0d4947f592ab35c3c300d583e4c.jpg)
 - [我的世界 基岩版|官方中文|本体+1.26.62升补|NSZ|原版|](https://www.gamer520.com/7500.html) (2026-11-13T03:01:25+08:00)
   ![封面](https://ig.freer.blog/2023/09/20/0641a862d79b1.jpg)
-- [文明7 Sid Meier’s Civilization® VII|官方中文|本体+1.5.1升补+30DLC|NSZ|](https://www.gamer520.com/104614.html) (2026-11-13T03:00:54+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1295660/capsule_616x353.jpg?t=1738771302)
-- [怪物史莱克2 重制版 Shrek 2 Remastered|官方中文|本体+1.0.4升补|NSP|](https://www.gamer520.com/125815.html) (2026-11-12T06:05:31+08:00)
-  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch2/70010000101621/f3b78055f8bf6db7b5a13712361423dc596f526a5ae8ab4e6d634b6ba1fcbfa7)
-- [青夏轨迹|官方中文|移植版|](https://www.gamer520.com/125797.html) (2026-11-12T05:00:28+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2185770/capsule_616x353.jpg?t=1670471787)
-- [战锤幸存者 Warhammer Survivors|官方中文|本体+v2.1.2升补|NSP|](https://www.gamer520.com/125740.html) (2026-11-11T05:10:19+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3669620/551bc7d10ffe0dab2dceeb6add75cf47a2e4d8ac/capsule_616x353.jpg?t=1794319205)
-- [破石化 自然回响 Unpetrified: Echoes of Nature|官方中文|本体+v1.0.3.0升补|NSP|](https://www.gamer520.com/125738.html) (2026-11-11T05:02:23+08:00)
-  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000100545/f786be5ee00ba54caef035093de4d0233a24a56940e2ea157f64f74dd9300f5c)
