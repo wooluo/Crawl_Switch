@@ -1,8 +1,16 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-19 01:55 (UTC+8)
+更新时间：2026-11-20 02:03 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [生前夜初代|移植版|60帧+国语配音+地图+任务+即时存档|](https://www.gamer520.com/126279.html) (2026-11-19T05:05:33+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/19/6afe51f4f1f19.jpg)
+- [泪之境 Tearscape|官方中文|本体+1.0.2升补|NSP|](https://www.gamer520.com/126277.html) (2026-11-19T05:05:16+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3216340/8899c176b93c8ad4c6affc10d4e758f499ca80d1/capsule_616x353.jpg?t=1790339703)
+- [斯普拉遁3|官方中文|本体+12.0.0升补+3DLC|NSZ|原版|](https://www.gamer520.com/107148.html) (2026-11-19T05:02:34+08:00)
+  ![封面](https://ig.freer.blog/2023/09/16/1274526c60d5c.jpg)
+- [忍者神龟 斯普特林的命运|官方中文|本体+2.1.1升补+4DLC|NSZ|原版|](https://www.gamer520.com/79485.html) (2026-11-19T05:00:44+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2996040/capsule_616x353.jpg?t=1721143532)
 - [仙剑奇侠传5|官方中文|移植版|](https://www.gamer520.com/126221.html) (2026-11-18T05:11:39+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1569930/capsule_616x353.jpg?t=1627367102)
 - [最终幻想13-2|官方中文|移植版|](https://www.gamer520.com/126216.html) (2026-11-18T05:03:46+08:00)
@@ -35,11 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/11/15/6af905851e182.jpg)
 - [暗黑破坏神2|官方中文|本体+1.0.35.0升补+1DLC+离线MOD|NSP|](https://www.gamer520.com/22636.html) (2026-11-14T03:00:40+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1771023640)
-- [EA SPORTS FC27|官方中文|本体+1.8d.f570升补+1DLC|NSZ|](https://www.gamer520.com/122727.html) (2026-11-13T03:10:43+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/13/6af65f00a98c1.jpg)
-- [哥斯拉 摧毁所有怪兽搏击 重制版|官方中文|本体+1.0.3升补|NSP|](https://www.gamer520.com/125888.html) (2026-11-13T03:05:51+08:00)
-  ![封面](https://img-eshop.cdn.nintendo.net/i/ae95e0f4075c88c6926d2730f58ba5bede755463375f65a95020857735d3af12.jpg?w=1000)
-- [无人深空|官方中文|本体+7.10.0升补|NSZ|原版|](https://www.gamer520.com/42700.html) (2026-11-13T03:03:00+08:00)
-  ![封面](https://s1.imagehub.cc/images/2025/09/02/5a7cc0d4947f592ab35c3c300d583e4c.jpg)
-- [我的世界 基岩版|官方中文|本体+1.26.62升补|NSZ|原版|](https://www.gamer520.com/7500.html) (2026-11-13T03:01:25+08:00)
-  ![封面](https://ig.freer.blog/2023/09/20/0641a862d79b1.jpg)
