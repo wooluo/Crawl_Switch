@@ -1,8 +1,18 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-20 02:03 (UTC+8)
+更新时间：2026-11-21 01:40 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [绝对魔权 Absolum|官方中文|本体+1.2.2升补|NSZ|](https://www.gamer520.com/100627.html) (2026-11-20T06:12:11+08:00)
+  ![封面](https://s1.imagehub.cc/images/2025/10/09/2b65bd61d1cde996ba14e8ef0bc8d87f.jpg)
+- [希尔维娅 败北传承 Cielvia-Inherited By Defeat|官方中文|本体+1.01升补|NSP|](https://www.gamer520.com/126365.html) (2026-11-20T06:10:13+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4835610/425e3f4e6edfed8bb5716996633a8ad9580301cd/capsule_616x353.jpg?t=1792400514)
+- [终极幸运之塔|官方中文|本体+1.24G升补|NSZ|](https://www.gamer520.com/111963.html) (2026-11-20T06:02:19+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1700270/4218c27f6910824427e13640ae2fd2d0b0e1d5fb/capsule_616x353_schinese.jpg?t=1745531006)
+- [打骨折超市日记 Discounty|官方中文|本体+1.2.2升补|NSZ|原版|](https://www.gamer520.com/98322.html) (2026-11-20T06:01:18+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2274620/a957008ad222a71765cec860eae048a2bb4d472c/capsule_616x353_schinese.jpg?t=1755530959)
+- [迪士尼梦幻星谷|官方中文|本体+1.26.1升补+3DLC|NSZ|原版|](https://www.gamer520.com/41011.html) (2026-11-20T06:00:09+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1401590/capsule_616x353.jpg?t=1689883856)
 - [生前夜初代|移植版|60帧+国语配音+地图+任务+即时存档|](https://www.gamer520.com/126279.html) (2026-11-19T05:05:33+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/19/6afe51f4f1f19.jpg)
 - [泪之境 Tearscape|官方中文|本体+1.0.2升补|NSP|](https://www.gamer520.com/126277.html) (2026-11-19T05:05:16+08:00)
@@ -33,13 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/09/23/6ab2fa00c46c2.jpg)
 - [恶魔城X 月下夜想曲|豪华中文|V1.0.2|移植版|](https://www.gamer520.com/126049.html) (2026-11-16T05:00:53+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/16/6afa584fa6543.jpg)
-- [丰收之月 特拉迪亚回声 Harvest Moon Echoes of Teradea|官方中文|本体+v1.4.0升补|NSP|](https://www.gamer520.com/124897.html) (2026-11-15T06:03:00+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3591180/17a292935c9e05668e7117503145a63470f10b84/capsule_616x353_schinese.jpg?t=1792036831)
-- [永恒传说 重制版 Tales of Eternia|官方中文|本体+v2.1.0升补|NSP|](https://www.gamer520.com/124020.html) (2026-11-15T06:02:17+08:00)
-  ![封面](https://img-eshop.cdn.nintendo.net/i/02bbceb6226179f76015215ddfb014738b2869c67b0c8a64cba06d6e104e2080.jpg?w=1000)
-- [和平之怒|官方中文|本体+1.2.0升补|NSP|](https://www.gamer520.com/30562.html) (2026-11-15T06:00:59+08:00)
-  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch/70010000013550/Video/posters/ae1598cc8f2efbbbb4767ba5178bf88007e64be27fe1e3d0cf27f0696e9e2e1a)
-- [水浒演武 风云再起|移植版|](https://www.gamer520.com/125997.html) (2026-11-15T06:00:49+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/15/6af905851e182.jpg)
-- [暗黑破坏神2|官方中文|本体+1.0.35.0升补+1DLC+离线MOD|NSP|](https://www.gamer520.com/22636.html) (2026-11-14T03:00:40+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1771023640)
