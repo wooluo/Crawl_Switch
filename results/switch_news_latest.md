@@ -1,12 +1,12 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-22 00:43 (UTC+8)
+更新时间：2026-11-23 01:00 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
-- [异度之刃3|官方中文|本体+3.0.0升补+4DLC|NSP|](https://www.gamer520.com/48547.html) (2026-11-21T05:00:39+08:00)
-  ![封面](https://img-eshop.cdn.nintendo.net/i/0ac5696ab20a973a48d2d5b9c3c8863e325a61b89ce31db49e045400e33664f1.jpg?w=1000)
 - [星之海|官方中文|本体+3.0.60151a升补+1DLC|NSP|原版|](https://www.gamer520.com/63797.html) (2026-11-21T05:03:02+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1244090/extras/Steam_steam-content-header.png?t=1692718109)
+- [异度之刃3|官方中文|本体+3.0.0升补+4DLC|NSP|](https://www.gamer520.com/48547.html) (2026-11-21T05:00:39+08:00)
+  ![封面](https://img-eshop.cdn.nintendo.net/i/0ac5696ab20a973a48d2d5b9c3c8863e325a61b89ce31db49e045400e33664f1.jpg?w=1000)
 - [绝对魔权 Absolum|官方中文|本体+1.2.2升补|NSZ|](https://www.gamer520.com/100627.html) (2026-11-20T06:12:11+08:00)
   ![封面](https://s1.imagehub.cc/images/2025/10/09/2b65bd61d1cde996ba14e8ef0bc8d87f.jpg)
 - [希尔维娅 败北传承 Cielvia-Inherited By Defeat|官方中文|本体+1.01升补|NSP|](https://www.gamer520.com/126365.html) (2026-11-20T06:10:13+08:00)
