@@ -1,8 +1,12 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-23 01:00 (UTC+8)
+更新时间：2026-11-24 04:57 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [恶魔城 绝望的和声|豪华中文+全人物DLC|移植版|](https://www.gamer520.com/126517.html) (2026-11-23T06:00:05+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/19/6afe753e6e28f.webp)
+- [奥兹国安魂曲|官方中文|本体+1.0.1升补|NSP|](https://www.gamer520.com/122797.html) (2026-11-23T00:00:04+08:00)
+  ![封面](https://img-eshop.cdn.nintendo.net/i/24c40bef26ff6732050d0bfba87d48b3eeaf45fa793bbc06295e82d5e286ac08.jpg?w=1000)
 - [星之海|官方中文|本体+3.0.60151a升补+1DLC|NSP|原版|](https://www.gamer520.com/63797.html) (2026-11-21T05:03:02+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1244090/extras/Steam_steam-content-header.png?t=1692718109)
 - [异度之刃3|官方中文|本体+3.0.0升补+4DLC|NSP|](https://www.gamer520.com/48547.html) (2026-11-21T05:00:39+08:00)
@@ -39,7 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/11/17/6afbb2260ca0f.jpg)
 - [恶魔城 贝尔蒙特的诅咒|官方中文|本体+1.1.4升补+2DLC|NSP|](https://www.gamer520.com/123961.html) (2026-11-17T05:10:01+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1788478863)
-- [球比伦战记 BALL x PIT|官方中文|本体+1.308升补|NSP|](https://www.gamer520.com/100917.html) (2026-11-17T05:01:54+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2062430/44a538f825381f4b58a82bab4cae1796be21fb88/capsule_616x353.jpg?t=1760558922)
-- [战神1|汉化配音|移植版|](https://www.gamer520.com/126132.html) (2026-11-17T05:00:24+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/17/6afbabc45e089.webp)
