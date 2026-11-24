@@ -1,8 +1,14 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-24 04:57 (UTC+8)
+更新时间：2026-11-25 04:02 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [阿修罗之怒|官方中文|移植版|](https://www.gamer520.com/126575.html) (2026-11-24T06:10:33+08:00)
+  ![封面](https://img.odbgo.com/i/2026/11/24/6b04ec4522edf.jpg)
+- [未来骑士团 Future Knight|官方中文|本体+1.5.0升补|NSP|](https://www.gamer520.com/126572.html) (2026-11-24T06:01:16+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4235410/df83b06c9b9ab9080a8d632eb810314450385be5/capsule_616x353.jpg?t=1786636237)
+- [东方少女绮想谭|官方中文|本体+1.0.5升补|NSZ|原版|](https://www.gamer520.com/42246.html) (2026-11-24T06:00:42+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1124060/capsule_616x353_schinese.jpg?t=1759193752)
 - [恶魔城 绝望的和声|豪华中文+全人物DLC|移植版|](https://www.gamer520.com/126517.html) (2026-11-23T06:00:05+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/19/6afe753e6e28f.webp)
 - [奥兹国安魂曲|官方中文|本体+1.0.1升补|NSP|](https://www.gamer520.com/122797.html) (2026-11-23T00:00:04+08:00)
@@ -37,9 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/11/18/6afd0d58a4b73.jpg)
 - [刀魂2|移植版|](https://www.gamer520.com/126214.html) (2026-11-18T05:01:28+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/18/6afd0ba77c35b.jpg)
-- [战神1+2合集|汉化移植版|](https://www.gamer520.com/126212.html) (2026-11-18T05:00:15+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/18/6afd09f3edefa.jpg)
-- [二之国 白色圣灰的女王|V2.0汉化配音整合版|NSP|](https://www.gamer520.com/126136.html) (2026-11-17T05:10:18+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/17/6afbb2260ca0f.jpg)
-- [恶魔城 贝尔蒙特的诅咒|官方中文|本体+1.1.4升补+2DLC|NSP|](https://www.gamer520.com/123961.html) (2026-11-17T05:10:01+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1788478863)
