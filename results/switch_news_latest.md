@@ -1,8 +1,16 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-25 04:02 (UTC+8)
+更新时间：2026-11-26 03:07 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [逃离 沉浸式 Escape Immersion|官方中文|NSP|](https://www.gamer520.com/126659.html) (2026-11-25T06:10:24+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4033680/c24e0a6c4de1d7c8b556befadaf32d47c16da96a/capsule_616x353.jpg?t=1788962494)
+- [顶尖决胜+Ace版 TIEBREAK+Ace Edition|官方中文|本体+1.6.0升补|NSP|](https://www.gamer520.com/92991.html) (2026-11-25T06:03:28+08:00)
+  ![封面](https://s1.imagehub.cc/images/2025/05/17/dd6e1b1508593b81dbe575cfcff3e1b0.jpg)
+- [DONT STARVE TOGETHER|美版中文|本体+1.31.0升补|NSZ|原版|](https://www.gamer520.com/29573.html) (2026-11-25T06:01:35+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/322330/capsule_616x353.jpg?t=1707873651)
+- [西瓜游戏 合成大西瓜 スイカゲーム|官方中文|本体+2.4.3升补+30DLC|NSZ|原版|](https://www.gamer520.com/66897.html) (2026-11-25T06:00:15+08:00)
+  ![封面](https://ig.freer.blog/2023/10/29/b9dc2092d7262.jpg)
 - [阿修罗之怒|官方中文|移植版|](https://www.gamer520.com/126575.html) (2026-11-24T06:10:33+08:00)
   ![封面](https://img.odbgo.com/i/2026/11/24/6b04ec4522edf.jpg)
 - [未来骑士团 Future Knight|官方中文|本体+1.5.0升补|NSP|](https://www.gamer520.com/126572.html) (2026-11-24T06:01:16+08:00)
@@ -35,11 +43,3 @@
   ![封面](https://ig.freer.blog/2023/09/16/1274526c60d5c.jpg)
 - [忍者神龟 斯普特林的命运|官方中文|本体+2.1.1升补+4DLC|NSZ|原版|](https://www.gamer520.com/79485.html) (2026-11-19T05:00:44+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2996040/capsule_616x353.jpg?t=1721143532)
-- [仙剑奇侠传5|官方中文|移植版|](https://www.gamer520.com/126221.html) (2026-11-18T05:11:39+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1569930/capsule_616x353.jpg?t=1627367102)
-- [最终幻想13-2|官方中文|移植版|](https://www.gamer520.com/126216.html) (2026-11-18T05:03:46+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/292140/capsule_616x353.jpg?t=1775177243)
-- [宝可梦GS Vitro|移植版|](https://www.gamer520.com/126218.html) (2026-11-18T05:03:35+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/18/6afd0d58a4b73.jpg)
-- [刀魂2|移植版|](https://www.gamer520.com/126214.html) (2026-11-18T05:01:28+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/18/6afd0ba77c35b.jpg)
