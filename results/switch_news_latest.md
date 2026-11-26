@@ -1,8 +1,12 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-26 03:07 (UTC+8)
+更新时间：2026-11-27 02:56 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [文明7 Sid Meier’s Civilization® VII|官方中文|本体+1.5.1.1升补+30DLC|NSZ|](https://www.gamer520.com/104614.html) (2026-11-26T06:00:54+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1295660/capsule_616x353.jpg?t=1738771302)
+- [轩辕剑外传 汉之云|官方中文|移植版|](https://www.gamer520.com/126747.html) (2026-11-26T06:00:10+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1870140/capsule_616x353.jpg?t=1681968740)
 - [逃离 沉浸式 Escape Immersion|官方中文|NSP|](https://www.gamer520.com/126659.html) (2026-11-25T06:10:24+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/4033680/c24e0a6c4de1d7c8b556befadaf32d47c16da96a/capsule_616x353.jpg?t=1788962494)
 - [顶尖决胜+Ace版 TIEBREAK+Ace Edition|官方中文|本体+1.6.0升补|NSP|](https://www.gamer520.com/92991.html) (2026-11-25T06:03:28+08:00)
@@ -39,7 +43,3 @@
   ![封面](https://img.odbgo.com/i/2026/11/19/6afe51f4f1f19.jpg)
 - [泪之境 Tearscape|官方中文|本体+1.0.2升补|NSP|](https://www.gamer520.com/126277.html) (2026-11-19T05:05:16+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3216340/8899c176b93c8ad4c6affc10d4e758f499ca80d1/capsule_616x353.jpg?t=1790339703)
-- [斯普拉遁3|官方中文|本体+12.0.0升补+3DLC|NSZ|原版|](https://www.gamer520.com/107148.html) (2026-11-19T05:02:34+08:00)
-  ![封面](https://ig.freer.blog/2023/09/16/1274526c60d5c.jpg)
-- [忍者神龟 斯普特林的命运|官方中文|本体+2.1.1升补+4DLC|NSZ|原版|](https://www.gamer520.com/79485.html) (2026-11-19T05:00:44+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2996040/capsule_616x353.jpg?t=1721143532)
