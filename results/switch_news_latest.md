@@ -1,8 +1,12 @@
 # Nintendo Switch 游戏信息
-更新时间：2026-11-27 02:56 (UTC+8)
+更新时间：2026-11-28 02:48 (UTC+8)
 
 ✅ 共找到 20 条游戏信息：
 
+- [冥狱战术 Hadean Tactics|官方中文|NSP|](https://www.gamer520.com/126816.html) (2026-11-27T06:10:59+08:00)
+  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1260590/5190551d1d7317e7fa9d1ed8292be276da6771b2/capsule_616x353_alt_assets_6_schinese.jpg?t=1794947009)
+- [农场营地 Farming Camp|官方中文|本体+1.0.4升补|NSZ|](https://www.gamer520.com/123054.html) (2026-11-27T06:00:54+08:00)
+  ![封面](https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_1200/store/software/switch/70010000115744/8801708c0dfbded73b6d59d97a8a373f14007301451360c65af784cac60daf14)
 - [文明7 Sid Meier’s Civilization® VII|官方中文|本体+1.5.1.1升补+30DLC|NSZ|](https://www.gamer520.com/104614.html) (2026-11-26T06:00:54+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1295660/capsule_616x353.jpg?t=1738771302)
 - [轩辕剑外传 汉之云|官方中文|移植版|](https://www.gamer520.com/126747.html) (2026-11-26T06:00:10+08:00)
@@ -39,7 +43,3 @@
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/2274620/a957008ad222a71765cec860eae048a2bb4d472c/capsule_616x353_schinese.jpg?t=1755530959)
 - [迪士尼梦幻星谷|官方中文|本体+1.26.1升补+3DLC|NSZ|原版|](https://www.gamer520.com/41011.html) (2026-11-20T06:00:09+08:00)
   ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/1401590/capsule_616x353.jpg?t=1689883856)
-- [生前夜初代|移植版|60帧+国语配音+地图+任务+即时存档|](https://www.gamer520.com/126279.html) (2026-11-19T05:05:33+08:00)
-  ![封面](https://img.odbgo.com/i/2026/11/19/6afe51f4f1f19.jpg)
-- [泪之境 Tearscape|官方中文|本体+1.0.2升补|NSP|](https://www.gamer520.com/126277.html) (2026-11-19T05:05:16+08:00)
-  ![封面](https://shared.cdn.queniuqe.com/store_item_assets/steam/apps/3216340/8899c176b93c8ad4c6affc10d4e758f499ca80d1/capsule_616x353.jpg?t=1790339703)
